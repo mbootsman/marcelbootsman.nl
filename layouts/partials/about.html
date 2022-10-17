@@ -1,4 +1,13 @@
 <div>
-    <h2 class="">{{ with .Site.GetPage "about" }}{{ .Title }}{{ end }}</h2>
-    <div>{{ with .Site.GetPage "about" }}{{ .Content }}{{ end }}</div>
+    <h2>{{ with .Site.GetPage "about" }}{{ .Title }}{{ end }}</h2>
+    <div class="box">
+        <div class="column twothird">{{ with .Site.GetPage "about" }}{{ .Content }}{{ end }}</div>
+        <div class="column onethird">
+            {{ $image := resources.Get "images/marcel-bootsman-ava-2020-1200x1200.jpg" }}
+            {{ $image := $image.Resize "200x" }}
+            {{ with $image }}
+            <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+            {{ end }}
+        </div>
+    </div>
 </div>

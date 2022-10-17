@@ -1,3 +1,56 @@
 .logo__cursor {
     display: none;
 }
+
+.homepage-content {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.work {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.work h2 {
+    margin-top: 0px;
+}
+.grey {
+    background-color: #f6f6f6;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.box .column.onethird {
+    width: 34%;
+}
+
+.box .column.twothird {
+    width: 66%;
+}
+
+.box img {
+    border-radius: 200px;
+}
+
+
+/* Responsive layout */
+@media (max-width: 800px) {
+    .box {
+        flex-direction: column;
+    }
+
+    .box .column.onethird {
+        width: 100%;
+    }
+
+    .box .column.twothird {
+        width: 100%;
+    }
+}
