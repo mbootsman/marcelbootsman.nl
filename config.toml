@@ -2,3 +2,23 @@ baseURL = 'https://marcelbootsman.nl/'
 languageCode = 'en-us'
 title = 'Marcel Bootsman'
 theme = 'hello-friend'
+
+[params]
+# if you set this to 0, only submenu trigger will be visible
+showMenuItems = 2
+
+# Show reading time in minutes for posts
+showReadingTime = true
+
+[languages]
+    [languages.en]
+
+        copyright = ""
+
+        [languages.en.params.logo]
+        logoText = "Marcel Bootsman"
+        logoHomeLink = "/"
+        # or
+        #
+        # path = "/img/your-example-logo.svg"
+        # alt = "Your example logo alt text"    
