@@ -1,0 +1,4 @@
+baseURL = 'https://marcelbootsman.nl/'
+languageCode = 'en-us'
+title = 'Marcel Bootsman'
+theme = 'hello-friend'
