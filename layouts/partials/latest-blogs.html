@@ -1,0 +1,12 @@
+<div>
+    <h2>{{ with .Site.GetPage "latest-blogs" }}{{ .Title }}{{ end }}</h2>
+    <div class="box">
+        <div class="column">
+            <ol>
+                {{ range ( where .Site.RegularPages "Type" "posts" | first 30 ) }}
+                <li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Summary }}</li>
+                {{end}}
+            </ol>
+        </div>
+    </div>
+</div>

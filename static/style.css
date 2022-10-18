@@ -18,6 +18,7 @@
 .work h2 {
     margin-top: 0px;
 }
+
 .grey {
     background-color: #f6f6f6;
 }
@@ -37,6 +38,50 @@
 
 .box img {
     border-radius: 200px;
+}
+
+
+.click-to-tweet {
+    display: inline-block;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #dddddd;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 15px 15px 15px 30px;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+}
+
+.click-to-tweet .text a {
+    padding: 15px 0;
+    margin: 15px 0;
+    position: relative;
+    color: #000;
+    font-size: 1.5em;
+    line-height: 140%;
+    font-weight: 100;
+    text-decoration: none;
+    word-wrap: break-word;
+    border-bottom: none;
+}
+
+.click-to-tweet a.ctt-button {
+    padding: 11px 24px 0 0;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    font-size: .7em;
+    font-weight: bold;
+    color: #999999;
+    float: right;
+    text-decoration: none;
+    background: transparent url(/img/birdy.png) no-repeat right top 10px;
+}
+
+.click-to-tweet a.ctt-button:hover {
+    color: #666666;
+    background: transparent url(/img/birdy.png) no-repeat right top 8px;
 }
 
 
