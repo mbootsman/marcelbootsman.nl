@@ -20,7 +20,7 @@ At about 10 minutes past 7 in the morning, I left my home, and started walking. 
 After witnessing a magical sunset, walking in the snow, between people ice-skating on natural ice for the first time since about 9 years was really special. I’m posting this on my blog, because I want as many of you to experience what I saw. Sure, these are just pictures, but you can get a sense of how it was.
 
 Here’s the picture gallery, I hope you enjoy the pictures! Complete route can be found below the pictures.
-{{< gallery dir="/images" />}}
+
 Here’s the complete route on strava:
 
 <iframe allowtransparency="true" frameborder="0" height="405" scrolling="no" src="https://www.strava.com/activities/4785168506/embed/25a137a2cc6dbb063d4b5b71a9319bbea73d8cc8" width="100%"></iframe>
