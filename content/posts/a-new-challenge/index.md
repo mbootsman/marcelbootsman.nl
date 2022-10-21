@@ -4,6 +4,9 @@ date: '2020-03-09T14:20:00+01:00'
 draft: false
 author: 'Marcel Bootsman'
 summary: 'I have decided to start a new adventure. Starting April 1st, I''ll be working full-time for Kinsta - Managed WordPress Hosting, as Marketing Manager Dutch Market.'
+cover: 'images/a-new-challenge.jpg'
+coverAlt: 'Two signs of a human hiking pointing left and right'
+useRelativeCover: true
 categories:
     - General
 ---
@@ -41,8 +44,11 @@ What about nostromo.nl?
 -----------------------
 
 Since I’ll be going to work for Kinsta on a full time basis, I have no room in my schedule to deliver the same amount of service to my clients. As of March 1st, clients with a WordPress maintenance contract have been transferred to [Buro Staal](https://burostaal.nl).
+ 
+{{< figure src="images/nostromo-and-buro-staal-with-bubbles.jpg" caption="Rosanne and Annemieke from Buro Staal welcome their new clients." title="Rosanne and Annemieke from Buro Staal welcome their new clients." alt="Rosanne and Annemieke from Buro Staal welcome their new clients.">}}
 
-<figure class="wp-block-image size-medium">![](../../uploads/2020/03/nostromo-and-buro-staal-with-bubbles-e1583405144830.jpg)<figcaption>Rosanne and Annemieke from Buro Staal welcome their new clients.</figcaption></figure>Projects that are in progress will be finished as agreed upon and I will not accept any new projects. So basically, all services delivered from nostromo.nl will be stopped.
+
+Projects that are in progress will be finished as agreed upon and I will not accept any new projects. So basically, all services delivered from nostromo.nl will be stopped.
 
 I want to thank all my clients for choosing me and nostromo.nl for their WordPress related challenges. (Of course I have already informed and thanked all my clients of this career move).
 

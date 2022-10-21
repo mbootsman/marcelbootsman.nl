@@ -1,14 +1,20 @@
-baseURL = 'https://marcelbootsman.nl/'
-languageCode = 'en-us'
-title = 'Marcel Bootsman'
-theme = 'hello-friend'
+baseURL = "https://marcelbootsman.nl/"
+languageCode = "en-us"
+title = "Marcel Bootsman"
+theme = ["hello-friend", "hugo-shortcode-gallery"]
 summaryLength = 20
-[params]
-# if you set this to 0, only submenu trigger will be visible
-showMenuItems = 2
 
-# Show reading time in minutes for posts
-showReadingTime = true
+
+[permalinks]
+  # Set permalink structure for posts
+  posts = '/:title/'
+
+[params]
+   # if you set this to 0, only submenu trigger will be visible
+   showMenuItems = 2
+
+   # Show reading time in minutes for posts
+   showReadingTime = true
 
 [languages]
     [languages.en]
@@ -22,3 +28,9 @@ showReadingTime = true
         #
         # path = "/img/your-example-logo.svg"
         # alt = "Your example logo alt text"    
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # Allow "unsafe" HTML in md files
+      unsafe = true

@@ -4,6 +4,9 @@ date: '2021-02-01T20:15:52+01:00'
 draft: false
 author: 'Marcel Bootsman'
 summary: 'Bitcoin (₿) is a cryptocurrency invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto.'
+cover: 'images/bitcoin-logo.png'
+coverAlt: 'The bitcoin logo with the bitcoin character'
+useRelativeCover: true
 categories:
     - General
 ---
@@ -17,4 +20,4 @@ Bitcoin has been criticized for its use in illegal transactions, the large amoun
 
 Source: [wikipedia](https://en.wikipedia.org/wiki/Bitcoin)
 
-<div class="wp-block-file">[Download the Bitcoin Whitepaper](https://marcelbootsman.nl/wp-content/uploads/2021/02/bitcoin.pdf)[Download](https://marcelbootsman.nl/wp-content/uploads/2021/02/bitcoin.pdf)</div>
+[Download the Bitcoin Whitepaper](bitcoin-whitepaper.pdf)

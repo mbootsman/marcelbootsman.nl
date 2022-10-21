@@ -5,6 +5,9 @@ Permalink: test
 draft: false
 author: 'Marcel Bootsman'
 summary: 'I''m stepping down as lead organizer for WordCamp The Netherlands. Not an easy decision, but one I had to make. For myself.'
+cover: 'images/stepping-down.jpg'
+coverAlt: 'A sign with a symbol of a human walking down a staircase'
+useRelativeCover: true
 categories:
     - 'WordPress Community'
 ---
