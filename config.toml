@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Marcel Bootsman"
 theme = ["hello-friend", "hugo-shortcode-gallery"]
 summaryLength = 20
-
+paginate = 5
 
 [permalinks]
   # Set permalink structure for posts
@@ -34,3 +34,11 @@ summaryLength = 20
     [markup.goldmark.renderer]
       # Allow "unsafe" HTML in md files
       unsafe = true
+
+[menu]
+[[menu.main]]
+  identifier = 'archive'
+  name = 'Archive'
+  pre = ""
+  url = '/archive/'
+

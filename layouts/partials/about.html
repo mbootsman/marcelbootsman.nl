@@ -6,7 +6,7 @@
             {{ $image := resources.Get "images/marcel-bootsman-ava-2020-1200x1200.jpg" }}
             {{ $image := $image.Resize "200x" }}
             {{ with $image }}
-            <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+            <img class="avatar" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
             {{ end }}
         </div>
     </div>

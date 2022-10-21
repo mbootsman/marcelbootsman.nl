@@ -36,7 +36,7 @@
     width: 66%;
 }
 
-.box img {
+.box img.avatar {
     border-radius: 200px;
 }
 
@@ -88,7 +88,13 @@
     background: transparent url(/img/birdy.png) no-repeat right top 8px;
 }
 
+.notice {
+    padding: 20px;
+}
 
+.disclaimer {
+    padding: 20px;
+}
 /* Responsive layout */
 @media (max-width: 800px) {
     .box {
