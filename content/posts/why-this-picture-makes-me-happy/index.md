@@ -4,12 +4,13 @@ date: '2015-06-08T07:43:09+02:00'
 draft: false
 author: 'Marcel Bootsman'
 summary: ''
+cover: 'images/cover-noam-in-a-field-with-blue-sky.jpg'
+coverAlt: 'Noam in a field with blue sky'
+useRelativeCover: true
 categories:
     - General
 ---
-[![IMG_20150607_142743](../../uploads/2015/06/IMG_20150607_142743-1.jpg)](https://marcelbootsman.nl/wp-content/uploads/2015/06/IMG_20150607_142743-1.jpg)
-
-Today, I posted this image of our son Noam. After posting it, I realised this picture really makes me happy. I’ll tell you why.
+Today, I posted [this image](/why-this-picture-makes-me-happy/images/noam-in-a-field-with-blue-sky.jpg) of our son Noam. After posting it, I realised this picture really makes me happy. I’ll tell you why.
 
 Freedom
 -------

@@ -4,6 +4,9 @@ date: '2015-01-14T14:23:33+01:00'
 draft: false
 author: 'Marcel Bootsman'
 summary: ''
+cover: 'images/plant-on-a-table.jpg'
+coverAlt: 'WordCamp Europe organising team'
+useRelativeCover: true
 categories:
     - General
 ---
@@ -19,6 +22,6 @@ I want to experience what happens when I work remote. Will I meet new inspiring 
 What locations will I be working at?
 ------------------------------------
 
-I don’t have a clue yet. Since I live in the Rotterdam area, I will be looking for locations that are in this area, require no subscription and preferably reachable by public transport. The reason I don’t like to have a subscription is because I want to explore as many places as possible. The first location is going to be [Het Nieuwe Kantoor in Rotterdam](http://t.co/5HwpRZ4g22). I’ll be there on Wednesday January 21st.
+I don’t have a clue yet. Since I live in the Rotterdam area, I will be looking for locations that are in this area, require no subscription and preferably reachable by public transport. The reason I don’t like to have a subscription is because I want to explore as many places as possible. The first location is going to be [Het Nieuwe Kantoor in Rotterdam](https://www.hnk.nl/locaties/rotterdam-scheepvaartkwartier/). I’ll be there on Wednesday January 21st.
 
 Let me be clear, I will keep working from home, because I love it, and our dog Grover needs to go out during the day. I just want to explore the possibilities and results from working ‘outside’ one day a week.

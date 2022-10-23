@@ -4,8 +4,12 @@ date: '2017-06-14T10:26:14+02:00'
 draft: false
 author: 'Marcel Bootsman'
 summary: 'I am in a train. The Thalys from Rotterdam to Paris Gare du Nord to be precise. My wife is next to me and we are on our way to Paris for WordCamp Europe 2017.'
+cover: 'images/doves-and-the-eiffel-tower.jpg'
+coverAlt: 'Picture of the opening remarks at WordCamp Europe 2017'
+useRelativeCover: true
 categories:
     - 'WordPress Community'
+url: '/wordcamp-europe-2017-paris'
 ---
 I am in a train. The Thalys from Rotterdam to Paris Gare du Nord to be precise. My wife Beatrijs is sitting next to me and is having fun watching here social media timelines. We are on our way to Paris for WordCamp Europe 2017.
 

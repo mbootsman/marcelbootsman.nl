@@ -4,6 +4,9 @@ date: '2015-01-20T19:50:01+01:00'
 draft: false
 author: 'Marcel Bootsman'
 summary: 'How did I manage to give my kids 100% attention on that one day I need (and want) to take care of them on my own.'
+cover: 'images/unplug.jpg'
+coverAlt: 'Pulling the powerplug from the socket'
+useRelativeCover: true
 categories:
     - Business
     - Family

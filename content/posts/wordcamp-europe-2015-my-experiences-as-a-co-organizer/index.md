@@ -4,6 +4,9 @@ date: '2015-07-03T14:51:13+02:00'
 draft: false
 author: 'Marcel Bootsman'
 summary: ''
+cover: 'images/wordcamp-europe-2015-organising-team.jpg'
+coverAlt: 'The WordCamp Europe 2015 Organising team'
+useRelativeCover: true
 categories:
     - 'WordPress Community'
 ---
@@ -12,14 +15,11 @@ WordCamp Europe 2015 is over. Writing this post has been on my to do list from t
 The organizing team
 -------------------
 
-<figure aria-describedby="caption-attachment-124" class="wp-caption aligncenter" id="attachment_124" style="width: 1024px">[![WordCamp Europe 2015 Organizing team](../../uploads/2015/07/CIsIHDBUkAA-mkG.jpg)](https://marcelbootsman.nl/wp-content/uploads/2015/07/CIsIHDBUkAA-mkG.jpg)<figcaption class="wp-caption-text" id="caption-attachment-124">Photo from [WCEurope twitter account](https://twitter.com/WCEurope)</figcaption></figure>
-
 A solid and experienced organizing team is the base for a successful WordCamp. Organizing a WordCamp Europe requires a large team to make sure everything runs as smooth as planned.This years team consisted of the distributed WordCamp Europe team together with the local WordCamp Sevilla team.
 
 Volunteers
 ----------
-
-<figure aria-describedby="caption-attachment-137" class="wp-caption aligncenter" id="attachment_137" style="width: 1024px">![All Volunteers](../../uploads/2015/07/wceu-day-2_DSF4920.jpg)<figcaption class="wp-caption-text" id="caption-attachment-137">Photo by [Florian Ziegler](http://florianziegler.com/)</figcaption></figure>
+{{< figure src="images/wordcamp-europe-2015-volunteers.jpg" caption="WordCamp Europe 2015 Volunteers - Photo by [Florian Ziegler](http://florianziegler.com/)" title="WordCamp Europe 2015 Volunteers" alt="WordCamp Europe 2015 Volunteers">}}
 
 In Leiden (2013), Paolo Belcastro and I were responsible for the volunteers, 50 volunteers that is. This year Luca Sartoni and Rafael Poveda joined me to manage 65 volunteers. During the planning phase, Rafael, Luca and me communicated through weekly meetings on Slack and private messages. Meeting each other before the event felt like we knew each other for years. This resulted in very good understanding of how we work individually and what we could expect from each other during WCEU.
 
@@ -37,7 +37,7 @@ The local team really helped in making things work. They knew where to go for di
 The conference days
 -------------------
 
-As an organiser it’s sometimes hard to find time and peace to go to a talk an see it from beginning to end. This years WCEU was normal, in which I can say I have only seen two complete talks; Matt’s Q&amp;A and the [DiversITy Matters](https://europe.wordcamp.org/2015/session/diversity-matters/) talk from Juliette Reinders Folmer and Wouter Groenewold. I’ll lookup the other talks on [wordpress.tv](http://wordpress.tv/), when they are published.
+As an organiser it’s sometimes hard to find time and peace to go to a talk an see it from beginning to end. This years WCEU was normal, in which I can say I have only seen two complete talks; Matt’s Q&amp;A and the [DiversITy Matters](https://europe.wordcamp.org/2015/session/diversity-matters/) talk from Juliette Reinders Folmer and Wouter Groenewold. Chekc out the other talks on [wordpress.tv](http://wordpress.tv/).
 
 The diversity talk was one of two last talks of day 2. I joined their talk not just because both speakers are fellow Dutchies, but mainly because I talked to them a lot after the speakers dinner and between sessions, which made me curious to see and hear what they had to tell. From the introduction to the end of the talk I was engaged with both speakers. Juliette is an experienced speaker and together with Wouter she managed to grab the audience attention from the first few sentences. They talked about experiences in the IT industry and Wouter talked about his past. In that past he was bullied a lot. Now he doesn’t want to be ‘victim’ anymore, he wants to show what can be done to feel welcome. Wouter, you rocked on stage!
 
@@ -64,7 +64,7 @@ Vienna. WordCamp Europe 2016. What can I say.
 
 It. Will. Be. Great.
 
-<iframe allow="autoplay" allowfullscreen="" frameborder="0" height="375" loading="lazy" src="https://www.dailymotion.com/embed/video/x1bva9?pubtool=oembed" title="Ultravox - Vienna" width="500"></iframe>
+{{< youtube xJeWySiuq1I >}}
 
 How I feel now
 --------------
@@ -77,4 +77,4 @@ Finishing this post is like a psychological closure of WCEU 2015. But, since I j
 
 Thanks.
 
-![WordCamp Europe 2015, Seville, Spain](../../uploads/2015/07/20150626-WordCamp-Europe-Seville-Day-1B-0394.jpg)
+{{< figure src="images/wordcamp-europe-2015-group-photo.jpg" caption="WordCamp Europe 2015 group photo - Photo by Found Art Photography" title="SWordCamp Europe 2015 Volunteers" alt="WordCamp Europe 2015 Volunteers">}}

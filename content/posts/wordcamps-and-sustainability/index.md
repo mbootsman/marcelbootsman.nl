@@ -3,8 +3,10 @@ title: 'WordCamps and sustainability'
 date: '2018-09-07T09:51:18+02:00'
 draft: false
 author: 'Marcel Bootsman'
-summary: ''
-thumbnail: ../../uploads/2018/06/lou-levit-1777-unsplash.jpg
+summary: 'Since I have been organizing several WordCamps, I have realized it is possible to reduce that stream of waste and make a WordCamp more sustainable and less damaging for the environment.'
+cover: 'images/forest-in-the-fog.jpg'
+coverAlt: 'Forest in the fog'
+useRelativeCover: true
 categories:
     - General
 ---
@@ -37,8 +39,8 @@ The following tips are categorized, and give organizers information about the di
 - Share lessons learned with other organizing teams.
 - Choose a venue that’s close to public transportation stop/stations to allow people to use public transportation and leave their cars at home.
 - Discuss catering details with venue and make sure waste is recycled, or even better, reused on site.
-- When supplying branded clothing, choose clotting from sustainable sources.
-- Print badges on sustainable, organic or recycled paper. Or use paper with a secondary function, like embedded seeds to grow some flower with the badge.
+- When supplying branded clothing, choose clothing from sustainable sources.
+- Print badges on sustainable, organic or recycled paper. Or use paper with a secondary function, like embedded seeds to grow some flowers with the badge.
 
 Tips for sponsors
 -----------------

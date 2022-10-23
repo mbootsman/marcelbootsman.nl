@@ -15,19 +15,15 @@ paginate = 5
 
    # Show reading time in minutes for posts
    showReadingTime = true
-
+   
+   DateFormatList = "January 2, 2006"
 [languages]
     [languages.en]
-
         copyright = ""
 
         [languages.en.params.logo]
         logoText = "Marcel Bootsman"
         logoHomeLink = "/"
-        # or
-        #
-        # path = "/img/your-example-logo.svg"
-        # alt = "Your example logo alt text"    
 
 [markup]
   [markup.goldmark]
@@ -41,4 +37,3 @@ paginate = 5
   name = 'Archive'
   pre = ""
   url = '/archive/'
-

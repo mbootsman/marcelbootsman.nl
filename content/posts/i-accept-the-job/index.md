@@ -4,6 +4,9 @@ date: '2013-04-24T11:45:46+02:00'
 draft: false
 author: 'Marcel Bootsman'
 summary: ''
+cover: 'images/wordcamp-europe-2013-organising-team.jpg'
+coverAlt: 'WordCamp Europe organising team'
+useRelativeCover: true
 categories:
     - 'WordPress Community'
 ---

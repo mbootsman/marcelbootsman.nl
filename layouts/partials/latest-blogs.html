@@ -1,22 +1,33 @@
-<div>
+<div class="latest-blogs">
     <h2>{{ with .Site.GetPage "latest-blogs" }}{{ .Title }}{{ end }}</h2>
     <div class="box">
-        <div class="column-4">
-            <div class="posts">
-                {{ range ( where .Site.RegularPages "Type" "posts" | first 14 ) }}
-                <div class="post">
-                    {{/* check if we have a cover */}}
-                    {{ if .Params.cover }}
-                        {{ $images := .Resources.GetMatch .Params.cover }}
-                        {{ $cover := $images.Resize "300x 200x q95 lancoz" }}
+        <div class="posts">
+            {{ range ( where .Site.RegularPages "Type" "posts" | first 5 ) }}
+            <div class="post">
+                {{/* check if we have a cover */}}
+                {{ if .Params.cover }}
+                    {{ $images := .Resources.GetMatch .Params.cover }}
+                    {{ $cover := $images.Resize "600x 600x q95 lancoz" }}
+                    <div class="cover">
                         <a href="{{ .Permalink }}"><img class="u-photo" src="{{ $cover.RelPermalink }}"></a>
-                        <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Summary }}
-                    {{ else }}
-                        <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Summary }}
-                    {{ end }}
-                </div>
-                {{end}}
+                    </div>
+                    <div class="content">
+                        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                        <span class="post-date">
+                            {{ .Date | time.Format $.Site.Params.DateFormatList }}
+                        </span>
+                        {{ .Summary }}
+                        
+                    </div>
+                {{ else }}
+                <div class="content">
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>{{ .Summary }}
             </div>
+                {{ end }}
+            </div>
+            {{end}}
         </div>
+        
     </div>
+    <a href="/archive/">Take a look at the archive with more posts</a>
 </div>
