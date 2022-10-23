@@ -7,6 +7,7 @@ summary: 'How did I manage to give my kids 100% attention on that one day I need
 cover: 'images/unplug.jpg'
 coverAlt: 'Pulling the powerplug from the socket'
 useRelativeCover: true
+url: '/giving-100-attention-kids'
 categories:
     - Business
     - Family

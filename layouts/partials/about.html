@@ -3,11 +3,7 @@
     <div class="box">
         <div class="column twothird">{{ with .Site.GetPage "about" }}{{ .Content }}{{ end }}</div>
         <div class="column onethird">
-            {{ $image := resources.Get "images/marcel-bootsman-ava-2020-1200x1200.jpg" }}
-            {{ $image := $image.Resize "200x" }}
-            {{ with $image }}
-            <img class="avatar" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-            {{ end }}
+            <img class="avatar" src="/img/marcel-bootsman-ava-2020.jpg">
         </div>
     </div>
 </div>
