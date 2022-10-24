@@ -45,7 +45,7 @@ What about nostromo.nl?
 
 Since I’ll be going to work for Kinsta on a full time basis, I have no room in my schedule to deliver the same amount of service to my clients. As of March 1st, clients with a WordPress maintenance contract have been transferred to [Buro Staal](https://burostaal.nl).
  
-{{< figure src="images/nostromo-and-buro-staal-with-bubbles.jpg" caption="Rosanne and Annemieke from Buro Staal welcome their new clients." title="Rosanne and Annemieke from Buro Staal welcome their new clients." alt="Rosanne and Annemieke from Buro Staal welcome their new clients.">}}
+{{< figure src="images/nostromo-and-buro-staal-with-bubbles.jpg" srcwebp="images/nostromo-and-buro-staal-with-bubbles.webp" caption="Rosanne and Annemieke from Buro Staal welcome their new clients." alt="Rosanne and Annemieke from Buro Staal welcome their new clients.">}}
 
 
 Projects that are in progress will be finished as agreed upon and I will not accept any new projects. So basically, all services delivered from nostromo.nl will be stopped.

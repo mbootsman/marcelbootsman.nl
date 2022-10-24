@@ -38,7 +38,7 @@ How to export MailChimp feeds
 
 To export feeds, we need to navigate to `Forms -> Import/Export`. Besides the default export options, we see two new options: `Export Feeds`, and `Import Feeds`.
 
-{{< figure src="images/export-entries.png" caption="Export options in Gravity Forms" title="Export options in Gravity Forms" alt="Export options in Gravity Forms">}}
+{{< figure src="images/export-entries.png" srcwebp="images/export-entries.webp" caption="Export options in Gravity Forms" title="Export options in Gravity Forms" alt="Export options in Gravity Forms">}}
 
 Click on `Export Feeds`. In most cases you can select all feeds, or just select the feeds you want to export and click `Download Export File`. If you have chosen smart names for your feeds, selecting will be easy. If not, well, lesson learned right?
 
@@ -46,15 +46,15 @@ How to import MailChimp feeds
 -----------------------------
 
 Go to `Forms -> Import/Export` and click on the Import Feeds link on the site where you want your feeds to be imported. Select the `.json`file that you have exported and click on import.
-{{< figure src="images/import-feeds.png" caption="Import feeds from Gravity Forms" title="Import feeds from Gravity Forms" alt="Import feeds from Gravity Forms">}}
+{{< figure src="images/import-feeds.png" srcwebp="images/import-feeds.webp" caption="Import feeds from Gravity Forms" title="Import feeds from Gravity Forms" alt="Import feeds from Gravity Forms">}}
 
 After the import is done, you will see a comforting notification on your screen:
-{{< figure src="images/import-succeeded.png" caption="Import of Gravity Forms feeds succeeeded" title="Import of Gravity Forms feeds succeeeded" alt="Import of Gravity Forms feeds succeeeded">}}
+{{< figure src="images/import-succeeded.png" srcwebp="images/import-succeeded.webp"caption="Import of Gravity Forms feeds succeeeded" title="Import of Gravity Forms feeds succeeeded" alt="Import of Gravity Forms feeds succeeeded">}}
 
 See the result
 --------------
 
 To see the result, go to your form. In the Settings tab go to Mailchimp. You will see your imported feed(s) in the MailChimp feeds list.
-{{< figure src="images/import-result.png" caption="Result of importing Gravity Forms feeds" title="Result of importing Gravity Forms feeds" alt="Import of Gravity Forms feeds succeeeded">}}
+{{< figure src="images/import-result.png" srcwebp="images/import-result.webp" caption="Result of importing Gravity Forms feeds" title="Result of importing Gravity Forms feeds" alt="Import of Gravity Forms feeds succeeeded">}}
 
 If you have any questions about this, please let me know, I’m happy to help.

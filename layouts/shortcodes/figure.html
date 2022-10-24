@@ -1,8 +1,24 @@
 {{ if .Get "src" }}
-  <figure class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" >
-    <img src="{{ .Get "src" | safeURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }} />
-    {{ if .Get "caption" }}
-      <figcaption class="{{ with .Get "captionPosition"}}{{ . }}{{ else -}} center {{- end }}" {{ with .Get "captionStyle" }} style="{{ . | safeCSS }}" {{ end }}>{{ .Get "caption" | markdownify }}</figcaption>
-    {{ end }}
-  </figure>
-{{ end }} 
+<figure>
+  <picture class="{{ with .Get "position"}} {{ . }}{{ else -}} left {{- end }}">
+  {{ if .Get "srcwebp" }}
+    <source type="image/webp" srcset="{{ .Get "srcwebp" | safeURL }}">
+  {{ end }}
+
+  {{ if in (.Get "src") ".jpg" }}
+    <source type="image/jpg" srcset="{{ .Get "src" | safeURL }}">
+  {{ end }}
+
+  {{ if in (.Get "src") ".png" }}
+    <source type="image/png" srcset="{{ .Get "src" | safeURL }}">
+  {{ end }}
+    
+  <img src="{{ .Get "src" | safeURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} 
+  {{ with .Get "title" }} title="{{ . | plainify }}" {{ end }} />
+
+  {{ if .Get "caption" }}
+    <figcaption class="{{ with .Get " captionPosition"}}{{ . }}{{ else -}} center {{- end }}">{{ .Get "caption" | markdownify }}</figcaption>
+  {{ end }}
+  </picture>
+</figure>
+{{ end }}
