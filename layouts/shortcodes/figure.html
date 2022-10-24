@@ -12,8 +12,9 @@
   {{ if in (.Get "src") ".png" }}
     <source type="image/png" srcset="{{ .Get "src" | safeURL }}">
   {{ end }}
-    
-  <img src="{{ .Get "src" | safeURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} 
+  
+  {{ $image := .Page.Resources.GetMatch (.Get "src") }}
+  <img src="{{ .Get "src" | safeURL }}" width="{{ $image.Width}}" height="{{ $image.Height }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} 
   {{ with .Get "title" }} title="{{ . | plainify }}" {{ end }} />
 
   {{ if .Get "caption" }}

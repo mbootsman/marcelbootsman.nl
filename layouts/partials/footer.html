@@ -17,7 +17,11 @@
   </div>
 </footer>
 
-<script src="{{ "assets/main.js" | absURL }}"></script>
-<script src="{{ "assets/prism.js" | absURL }}"></script>
+{{ $menu := resources.Get "js/menu.js" }}
+{{ $prism := resources.Get "js/prism.js" }}
+{{ $theme := resources.Get "js/theme.js" }}
+{{ $js := slice $menu $prism $theme | resources.Concat "bundle.js" }} 
+
+<script type="text/javascript" src="{{ $js.RelPermalink }}" defer></script>
 
 {{- partial "extended_footer.html" . }}

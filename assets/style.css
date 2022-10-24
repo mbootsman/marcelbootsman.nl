@@ -2,6 +2,10 @@
     display: none;
 }
 
+img {
+    height: auto;
+}
+
 .homepage-content {
     margin: 20px auto;
     max-width: 800px;
@@ -21,6 +25,10 @@
 
 .grey {
     background-color: #f6f6f6;
+}
+
+.dark-theme .grey {
+    background-color: var(--header);
 }
 
 .box {
@@ -54,6 +62,7 @@
 .box .cover img {
     box-shadow: 4px 4px 7px rgba(0, 0, 0, .15);
     border-radius: 5px;
+    height: auto;
 }
 
 .box .content {

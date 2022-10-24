@@ -17,7 +17,8 @@
 <!-- Theme CSS -->
 <link rel="stylesheet" href="{{ "assets/style.css" | absURL }}" />
 <!-- Custom CSS to override theme properties (/static/style.css) -->
-<link rel="stylesheet" href="{{ "style.css" | absURL }}" />
+{{ $style := resources.Get "style.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink}}" />
 
 <!-- Icons -->
 <link
@@ -26,14 +27,6 @@
   href="{{ "img/marcelbootsman-logo.png" | absURL }}"
 />
 <link rel="shortcut icon" href="{{ "img/marcelbootsman-logo.png" | absURL }}" />
-
-<!-- Fonts -->
-<link href="{{ "assets/fonts/Inter-Italic.woff2" | absURL }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ "assets/fonts/Inter-Regular.woff2" | absURL }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ "assets/fonts/Inter-Medium.woff2" | absURL }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ "assets/fonts/Inter-MediumItalic.woff2" | absURL }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ "assets/fonts/Inter-Bold.woff2" | absURL }}" rel="preload" type="font/woff2" as="font" crossorigin="">
-<link href="{{ "assets/fonts/Inter-BoldItalic.woff2" | absURL }}" rel="preload" type="font/woff2" as="font" crossorigin="">
 
 <!-- Twitter Card -->
 {{ template "_internal/twitter_cards.html" . }}

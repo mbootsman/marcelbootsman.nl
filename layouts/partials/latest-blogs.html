@@ -6,10 +6,10 @@
             <div class="post">
                 {{/* check if we have a cover */}}
                 {{ if .Params.cover }}
-                    {{ $images := .Resources.GetMatch .Params.cover }}
-                    {{ $cover := $images.Resize "600x 600x q95 lancoz" }}
+                    {{ $image := .Resources.GetMatch .Params.cover }}
+                    {{ $cover := $image.Resize "314x 600x webp q95 lancoz" }}
                     <div class="cover">
-                        <a href="{{ .Permalink }}"><img class="u-photo" src="{{ $cover.RelPermalink }}"></a>
+                        <a href="{{ .Permalink }}"><img width="{{ $cover.Width }}" height="{{ $cover.Height }}" class="u-photo" src="{{ $cover.RelPermalink }}"></a>
                     </div>
                     <div class="content">
                         <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
