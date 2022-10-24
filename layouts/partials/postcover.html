@@ -1,11 +1,31 @@
 <figure class="post-cover">
-  {{ if .Params.UseRelativeCover }}
-    <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}"/>
-  {{ else }}
-    <img src="{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}"/>
-  {{ end }}
+  <picture>
+    {{ if .Params.UseRelativeCover }}
+      {{ if in (replace .Params.Cover ".jpg" ".webp") ".webp" }}
+        <source type="image/webp" srcset="{{ (replace .Params.Cover ".jpg" ".webp") | safeURL }}">
+      {{ end }}
 
-  {{ if .Params.CoverCaption }}
-    <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
-  {{ end }}
+      {{ if in (replace .Params.Cover ".png" ".webp") ".webp" }}
+        <source type="image/webp" srcset="{{ (replace .Params.Cover ".png" ".webp") | safeURL }}">
+      {{ end }}
+
+      {{ if in (.Params.Cover) ".jpg" }}
+        <source type="image/jpg" srcset="{{ .Params.Cover | safeURL }}">
+      {{ end }}
+
+      {{ if in (.Params.Cover) ".png" }}
+        <source type="image/png" srcset="{{ .Params.Cover | safeURL }}">
+      {{ end }}
+
+      <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}"/>
+    
+    
+    {{ else }}
+      <img src="{{ .Params.Cover | absURL }}" alt="{{ .Params.CoverAlt | plainify | default .Title }}"/>
+    {{ end }}
+
+    {{ if .Params.CoverCaption }}
+      <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+    {{ end }}
+  </picture>
 </figure>

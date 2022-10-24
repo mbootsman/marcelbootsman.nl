@@ -15,7 +15,7 @@
   
   {{ $image := .Page.Resources.GetMatch (.Get "src") }}
   <img src="{{ .Get "src" | safeURL }}" width="{{ $image.Width}}" height="{{ $image.Height }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} 
-  {{ with .Get "title" }} title="{{ . | plainify }}" {{ end }} />
+  {{ with .Get "title" }} title="{{ . | plainify }}" {{ end }} loading="lazy" />
 
   {{ if .Get "caption" }}
     <figcaption class="{{ with .Get " captionPosition"}}{{ . }}{{ else -}} center {{- end }}">{{ .Get "caption" | markdownify }}</figcaption>
