@@ -1,4 +1,4 @@
-baseURL = "https://marcelbootsman.nl/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Marcel Bootsman"
 theme = ["hello-friend", "hugo-shortcode-gallery"]
