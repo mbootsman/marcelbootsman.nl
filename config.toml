@@ -15,8 +15,9 @@ paginate = 5
 
    # Show reading time in minutes for posts
    showReadingTime = true
-   
+   Toc = true
    DateFormatList = "January 2, 2006"
+   
 [languages]
     [languages.en]
         copyright = ""
