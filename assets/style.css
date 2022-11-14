@@ -137,6 +137,25 @@ img {
     padding: 20px;
 }
 
+.connect ul {
+    margin-left: 0;
+}
+
+.connect li {
+    list-style: none;
+}
+
+.connect li img {
+    height: 26px;
+    width: 26px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 2px 0;
+}
+
+.dark-theme .connect li img {
+    filter: invert(75%);
+}
 
 /* Responsive layout */
 @media (max-width: 800px) {
