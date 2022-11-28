@@ -16,7 +16,7 @@ When do I work?
 
 I work 5 days a week, with a bit less working hours on the Mondays. Usually available for work between 9AM and 5PM. Yes, that sounds like a 9-to-5 mentality. Mind the word usually. Because of private reasons there might be days where this work schedule is totally different.
 
-My Slack status is a good indication to see if I’m working, but it’s not a solid indicator. If you want to know if i’m available, just ping me. On Slack, Signal (if you have my mobile number), Twitter or email. Just realize, that when I’m not working, or in a meeting, I might not respond instantly.
+My Slack status is a good indication to see if I’m working, but it’s not a solid indicator. If you want to know if i’m available, just ping me. On Slack, Signal (if you have my mobile number), Mastodon or email. [Check my contact details here](https://marcelbootsman.nl/#connect). Just realize, that when I’m not working, or in a meeting, I might not respond instantly.
 
 How to contact me? 
 --------------------

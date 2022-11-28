@@ -1,6 +1,7 @@
 ---
 title: Connect
 ---
+## Connect
 Here are some of my online profiles. Please feel free to reach out to me for a talk about WordPress, hosting, or any other topic.
 
 - ![Alt text](/img/wordpress.svg "WordPress logo") [WordPress.org](https://profiles.wordpress.org/mbootsman)
