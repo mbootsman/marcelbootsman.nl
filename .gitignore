@@ -6,3 +6,5 @@ hugo_stats.json
 
 # Hugo lock file
 .hugo_build.lock
+
+marcelbootsman.code-workspace
