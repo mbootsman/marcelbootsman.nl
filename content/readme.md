@@ -44,7 +44,7 @@ If you want/need me to do something, just ask.
 Personal information 
 ----------------------
 
-- I Live in Berkel en Rodenrijs in The Netherlands. Yes, go ahead and Google Map it.
+- I Live in Berkel en Rodenrijs in The Netherlands. Go ahead and [find it on the map here](https://www.openstreetmap.org/relation/47368).
 - I have a dog named Grover
 - Musical preference is mostly electronic, Deep House, a litte bit of todays pop, etc. [Take a look at my SoundCloud profile](https://soundcloud.com/marcel-bootsman) to see what I like.
 - I'm a fan of wine. Doing a yearly winetrip with friends to taste (and buy) special wines. So if you need any tips for a wine to accompany your steak tonight, please let me know.
