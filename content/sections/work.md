@@ -5,7 +5,7 @@ title: Work
 ### What do I do now?
 
 *   Owner [nostromo.nl (WordPress support, maintenance, consultancy)](https://nostromo.nl)
-*   Marketing Manager Dutch Market at [Kinsta – Managed WordPress Hosting](https://kinsta.com/nl/)
+*   Marketing Manager Dutch Market at [Kinsta – Managed Application, Databas and WordPress Hosting](https://kinsta.com/nl/)
 
 ### Contributions to WordPress
 
