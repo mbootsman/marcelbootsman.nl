@@ -32,7 +32,7 @@ So, in December 2019 I decided to contact Kinsta to explore the possibility of m
 About Kinsta
 ------------
 
-Kinsta was founded in 2013 and their goal is be the best WordPress hosting platform in the world. Their team is remote-first with local hubs.
+Kinsta was founded in 2013 and their goal is to be the best WordPress hosting platform in the world. Their team is remote-first with local hubs.
 
 Performance is Kinsta’s obsession and by fine-tuning their servers they deliver maximum speeds. Only the best technology is used at Kinsta, from their server hardware to the software they run. No matter what development stack you use, they will always have the latest framework versions installed and up to date. Servers are powered by the Google Cloud Platform in 22 global data centers. Everything is interconnected over their premium tier network, designed to minimize distance and hops, resulting in fast and secure transport of your data.
 
