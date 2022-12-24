@@ -24,7 +24,7 @@ Initial solution
 
 In the initial solution I used the `WP_Query` `orderby` argument and gave it the value `rand`. This gave me a randomized set results from the database, which were display through a widget. This works great, but it also requires database calls, every time the partners needed to be displayed. Which is on *every* page view. Yeah, not smart, I know. But we all need to learn right? And making mistakes is the best way of learning.
 
-{{< click-to-tweet >}}Making mistakes is the best way of learning.{{< /click-to-tweet >}}
+> Making mistakes is the best way of learning.
 
 Optimizing the site
 -------------------

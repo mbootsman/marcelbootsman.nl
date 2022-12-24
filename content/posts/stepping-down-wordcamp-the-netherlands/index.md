@@ -26,7 +26,7 @@ With voluntary work, and the fun that it brings, for me the danger arises to acc
   
 Since April 1st, I started working for Kinsta as [Marketing Manager Dutch Market](https://marcelbootsman.nl/a-new-challenge/). This job is giving me lots of energy, teaches me new skills, makes me get to know a lot of new people and, which should be no surprise for a new job, takes time to get into my system. I really like to keep the balance level for voluntary work and paid work, this keeps me productive on both sides, and maybe even more important, prevents me from getting too busy which may result in not getting work done, or getting stressed out to get it done.
 
-{{< click-to-tweet >}}Making a decision for yourself is the best you can do.{{< /click-to-tweet >}}
+> Making a decision for yourself is the best you can do.
 
 WordCamp The Netherlands 2020
 -----------------------------
