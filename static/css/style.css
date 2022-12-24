@@ -189,6 +189,10 @@ body.dark .grey {
     filter: invert(75%);
 }
 
+.dark .main img {
+    filter: grayscale(100%);
+}
+
 .dark .grey {
     background-color: var(--header);
 }
