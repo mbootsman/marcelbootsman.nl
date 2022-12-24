@@ -64,6 +64,7 @@ params:
         text: "Marcel Bootsman"
         icon: /img/marcelbootsman-logo.png
         iconHeight: 40
+        iconWidth: 40
 
     # profile-mode
     profileMode:
