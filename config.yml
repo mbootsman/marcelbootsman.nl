@@ -30,8 +30,8 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Marcel Bootsman
-    description: "ExampleSite description"
-    keywords: [Blog, Portfolio, PaperModX]
+    description: "Personal site of Marcel Bootsman. Here I share some WordPress, webdev, business and other techy stuff."
+    keywords: [Blog, Open Source, WordPress]
     author: Me
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
