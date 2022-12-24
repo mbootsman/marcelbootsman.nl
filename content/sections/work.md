@@ -1,5 +1,6 @@
 ---
 title: Work
+searchHidden: true
 ---
 
 ### What do I do now?

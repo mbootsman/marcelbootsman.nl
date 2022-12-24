@@ -1,14 +1,21 @@
 ---
-title: 'Why this picture makes me happy'
-date: '2015-06-08T07:43:09+02:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: ''
-cover: 'images/cover-noam-in-a-field-with-blue-sky.jpg'
-coverAlt: 'Noam in a field with blue sky'
-useRelativeCover: true
+title: Why this picture makes me happy
+author: Marcel Bootsman
 categories:
-    - General
+- Family
+cover: 
+  image: "images/cover-noam-in-a-field-with-blue-sky.jpg" # image path/url
+  alt: "Noam in a field with blue sky" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2015-06-08T07:43:09+02:00"
+draft: false
+summary:  Today, I posted a pipcture of our son. After posting it, I realised this picture really makes me happy. I’ll tell you why.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 Today, I posted [this image](/why-this-picture-makes-me-happy/images/noam-in-a-field-with-blue-sky.jpg) of our son Noam. After posting it, I realised this picture really makes me happy. I’ll tell you why.
 

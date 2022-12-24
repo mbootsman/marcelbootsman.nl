@@ -1,14 +1,21 @@
 ---
-title: 'Remove WordPress REST API links'
-date: '2019-11-11T13:42:09+01:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'When using the WordPress REST API, it might be needed to hide some WP REST API links from the page source to the outside world. Here''s how to do that.'
-cover: 'images/locked-fence-padlock.jpg'
-coverAlt: 'Two signs of a human hiking pointing left and right'
-useRelativeCover: true
+title: Remove WordPress REST API links
+author: Marcel Bootsman
 categories:
-    - 'WordPress Tips'
+- WordPress Tips
+cover: 
+  image: "images/locked-fence-padlock.jpg" # image path/url
+  alt: "A padlock and a chain locking a greenish fence" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2019-11-11T13:42:09+01:00"
+draft: false
+summary: When using the WordPress REST API, it might be needed to hide some WP REST API links from the page source to the outside world. Here's how to do that.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 When using the WordPress REST API, it might be needed to hide some WP REST API links from the page source to the outside world. Here’s how to do that.
 

@@ -1,15 +1,21 @@
 ---
-title: 'Stepping down as lead organizer for WordCamp The Netherlands'
-date: '2020-05-31T14:20:04+02:00'
-Permalink: test
-draft: false
-author: 'Marcel Bootsman'
-summary: 'I''m stepping down as lead organizer for WordCamp The Netherlands. Not an easy decision, but one I had to make. For myself.'
-cover: 'images/stepping-down.jpg'
-coverAlt: 'A sign with a symbol of a human walking down a staircase'
-useRelativeCover: true
+title: Stepping down as lead organizer for WordCamp The Netherlands
+author: Marcel Bootsman
 categories:
-    - 'WordPress Community'
+- WordPress Community
+cover: 
+  image: "images/stepping-down.jpg" # image path/url
+  alt: "A sign with a symbol of a human walking down a staircase" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2020-05-31T14:20:04+02:00"
+draft: false
+summary: I'm stepping down as lead organizer for WordCamp The Netherlands. Not an easy decision, but one I had to make. For myself.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 I’m stepping down as lead organizer for WordCamp The Netherlands. Not an easy decision, but one I had to make. For myself.
 

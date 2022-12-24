@@ -1,14 +1,22 @@
 ---
-title: 'WordCamps and sustainability'
-date: '2018-09-07T09:51:18+02:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'Since I have been organizing several WordCamps, I have realized it is possible to reduce that stream of waste and make a WordCamp more sustainable and less damaging for the environment.'
-cover: 'images/forest-in-the-fog.jpg'
-coverAlt: 'Forest in the fog'
-useRelativeCover: true
+title:  WordCamps and sustainability
+author: Marcel Bootsman
 categories:
-    - General
+- WordPress Community
+- Sustainability
+cover: 
+  image: "images/forest-in-the-fog.jpg" # image path/url
+  alt: "Forest in the fog" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2018-09-07T09:51:18+02:00"
+draft: false
+summary: Since I have been organizing several WordCamps, I have realized it is possible to reduce that stream of waste and make a WordCamp more sustainable and less damaging for the environment.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 
 TL;DR;

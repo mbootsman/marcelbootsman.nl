@@ -1,14 +1,21 @@
 ---
-title: 'A new challenge'
-date: '2020-03-09T14:20:00+01:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'I have decided to start a new adventure. Starting April 1st, I''ll be working full-time for Kinsta - Managed WordPress Hosting, as Marketing Manager Dutch Market.'
-cover: 'images/a-new-challenge.jpg'
-coverAlt: 'Two signs of a human hiking pointing left and right'
-useRelativeCover: true
+title: A new challenge
+author: Marcel Bootsman
 categories:
-    - General
+- General
+cover: 
+  image: "images/a-new-challenge.jpg" # image path/url
+  alt: "Two signs of a human hiking pointing left and right" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2020-03-09T14:20:00+01:00"
+draft: false
+summary: I have decided to start a new adventure. Starting April 1st, I'll be working full-time for Kinsta - Managed WordPress Hosting, as Marketing Manager Dutch Market.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 After almost 11 years working for a diverse range of clients, I have decided to start a new adventure. Starting April 1st, I’ll be working full-time for [Kinsta – Managed WordPress Hosting](https://kinsta.com/nl/), as Marketing Manager Dutch Market.
 

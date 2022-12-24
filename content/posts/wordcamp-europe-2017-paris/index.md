@@ -1,19 +1,25 @@
 ---
-title: 'On my way to WordCamp Europe 2017 in Paris'
-date: '2017-06-14T10:26:14+02:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'I am in a train. The Thalys from Rotterdam to Paris Gare du Nord to be precise. My wife is next to me and we are on our way to Paris for WordCamp Europe 2017.'
-cover: 'images/doves-and-the-eiffel-tower.jpg'
-coverAlt: 'Picture of the opening remarks at WordCamp Europe 2017'
-useRelativeCover: true
+title:  On my way to WordCamp Europe 2017 in Paris
+author: Marcel Bootsman
 categories:
-    - 'WordPress Community'
-url: '/wordcamp-europe-2017-paris'
+- WordPress Community
+cover: 
+  image: "images/doves-and-the-eiffel-tower.jpg" # image path/url
+  alt: "Picture of the opening remarks at WordCamp Europe 2017" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2017-06-14T10:26:14+02:00"
+draft: false
+summary: I am in a train. The Thalys from Rotterdam to Paris Gare du Nord to be precise. My wife is next to me and we are on our way to Paris for WordCamp Europe 2017.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 I am in a train. The Thalys from Rotterdam to Paris Gare du Nord to be precise. My wife Beatrijs is sitting next to me and is having fun watching here social media timelines. We are on our way to Paris for WordCamp Europe 2017.
 
-This will be my third WordCamp Europe ([\#WCEU](https://twitter.com/search?q=%23wceu)), and the second for Beatrijs. After co-organizing the first WCEU in Leiden in 2013, I skipped Sofia, attended Sevilla with Beatrijs, skipped Vienna in 2016, and now we’re back. On our way to Paris. The first time for me as attendee, and not as co-organizer. Let me tell you why.
+This will be my third WordCamp Europe (WCEU), and the second for Beatrijs. After co-organizing the first WCEU in Leiden in 2013, I skipped Sofia, attended Sevilla with Beatrijs, skipped Vienna in 2016, and now we’re back. On our way to Paris. The first time for me as attendee, and not as co-organizer. Let me tell you why.
 
 I was involved In the preparations for WCEU 2017, attended a few meetings in the volunteer team but than ran into a problem of time shortage. Being a business owner I had to make decisions, and I chose for my business. f you are a business owner yourself you might find yourself in situations where you have to make decisions. Ok, that’s an understatement, owning a business means making decisions, all the time. And that’s ok. One thing I learned in the 8+ years I own my business is that making decisions is one of the most important things you need to do. Besides getting customers and sending invoices ;-). I had to make a decision between helping organize an AWESOME event, or serve those new clients who were waiting for me to agree to do business with them. I chose the latter.
 

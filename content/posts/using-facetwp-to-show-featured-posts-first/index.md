@@ -1,14 +1,21 @@
 ---
-title: 'Using FacetWP to show featured posts first'
-date: '2019-11-03T11:07:13+01:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'Want to show featured posts first in FacetWP results? Here''s how to do it.'
-cover: 'images/books-in-library.jpg'
-coverAlt: 'Lots of books in a library'
-useRelativeCover: true
+title: Using FacetWP to show featured posts first
+author: Marcel Bootsman
 categories:
-    - 'WordPress Tips'
+- WordPress Tips
+cover: 
+  image: "images/books-in-library.jpg" # image path/url
+  alt: "Lots of books in a library" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2019-11-03T11:07:13+01:00"
+draft: false
+summary: Want to show featured posts first in FacetWP results? Here's how to do it.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 Want to show featured posts first in FacetWP results? Here’s how to do it.
 
@@ -46,7 +53,7 @@ We first set a duration in minutes, get the current time in minutes and subtract
 The final thing we need to do in this filter function is merge the randomized post ids, together with the featured posts and return the array.
 
 {{< notice >}}
-🚀 **Performance tip**: If you only need post ids, add `'fields' => 'ids'` to the query args. This results in a query that only asks for ids, and not all other fields available in the posts table.
+🚀 **Performance tip**: If you only need post ids, add `'fields' => 'ids'` to the `query args`. This results in a query that only asks for ids, and not all other fields available in the posts table.
 {{< /notice >}}
 
 Apply the sorting to the FacetWP template

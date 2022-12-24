@@ -1,16 +1,22 @@
 ---
-title: 'Giving 100% attention to my kids. How I did it.'
-date: '2015-01-20T19:50:01+01:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'How did I manage to give my kids 100% attention on that one day I need (and want) to take care of them on my own.'
-cover: 'images/unplug.jpg'
-coverAlt: 'Pulling the powerplug from the socket'
-useRelativeCover: true
-url: '/giving-100-attention-kids'
+title: Giving 100% attention to my kids. How I did it
+author: Marcel Bootsman
 categories:
-    - Business
-    - Family
+- Business
+- Family
+cover: 
+  image: "images/unplug.jpg" # image path/url
+  alt: "Pulling the powerplug from the socket" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2015-01-20T19:50:01+01:00"
+draft: false
+summary: How did I manage to give my kids 100% attention on that one day I need (and want) to take care of them on my own.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 Self-employed business owners are busy, very busy. Being productive, checking and responding to email and social media and keeping in contact with your clients and your network. Just a few things self-employed business owners need to take care of every day. But what if all that work is standing in the way of a great day with your kids?
 

@@ -1,13 +1,12 @@
 ---
-title: ReadMe
-date: '2020-04-23T15:24:16+02:00'
+author: Marcel Bootsman
+date: "2020-04-23T15:24:16+02:00"
 draft: false
-menu: "main"
-author: 'Marcel Bootsman'
+title: ReadMe
 ---
 A README about me.
 
-I know README files about software. They tell the user what the software does, how it works, how to contact the authors, etc. And now, there are also personal README files, as I learned from [Nathan Bliss](https://twitter.com/nathan_bliss).
+I know README files about software. They tell the user what the software does, how it works, how to contact the authors, etc. And now, there are also personal README files, as I learned from [Nathan Bliss](https://nathanbliss.online/).
 
 So, here’s my README. Initally intended for my co-workers, but hey, it might be informative for everybody that finds this.
 

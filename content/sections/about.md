@@ -1,7 +1,8 @@
 ---
 title: About me
+searchHidden: true
 ---
-Hi! My name is Marcel Bootsman. This is my personal site on which I share some of my thoughts and experiences about my work, private life and everything in between. There will also be technical content about Open Source, Web development, WordPress and Hugo (which this is generated with since October, 2022).
+Hi! My name is Marcel Bootsman. This is my personal site on which I share some of my thoughts and experiences about my work, private life and everything in between. Also you might find some technical content here about Open Source, Web development, WordPress and Hugo (powering this website since October, 2022).
 
 ## Professional biography ##
 My current role, since April 2019, is Marketing Manager Dutch Market for [Kinsta](https://kinsta.com/). 

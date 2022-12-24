@@ -1,16 +1,23 @@
 ---
-title: 'My experiences at WordCamp Europe 2017 in Paris'
-date: '2017-06-30T09:01:42+02:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'This was my third WordCamp Europe. The first one as an attendee, and not a co-organizer. Let me tell you about my experiences.'
-cover: 'images/opening-of-wceu-2017.jpg'
-coverAlt: 'Picture of the opening remarks at WordCamp Europe 2017'
-useRelativeCover: true
+title: My experiences at WordCamp Europe 2017 in Paris
+author: Marcel Bootsman
 categories:
-    - 'WordPress Community'
+- WordPress Community
+cover: 
+  image: "images/opening-of-wceu-2017.jpg" # image path/url
+  alt: "Picture of the opening remarks at WordCamp Europe 2017" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2017-06-30T09:01:42+02:00"
+draft: false
+summary: This was my third WordCamp Europe. The first one as an attendee, and not a co-organizer. Let me tell you about my experiences.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
-WordCamp Europe 2017 has ended. The Jetpack swag bag is still lying next to me on my desk as a reminder to store it. I don’t want to. In this post I will tell you about my [\#WCEU](https://twitter.com/search?f=tweets&vertical=default&q=%23wceu) experiences.
+WordCamp Europe 2017 has ended. The Jetpack swag bag is still lying next to me on my desk as a reminder to store it. I don’t want to. In this post I will tell you about my WCEU experiences.
 
 Day 1: Travel &amp; sightseeing
 -------------------------------
@@ -38,11 +45,11 @@ On Contributor Day I was welcomed on the street near the venue by [Wendie Huis i
 
 I joined the organizing team in august 2016 to help with the volunteer team. After 2 months, I could not allocate enough time to be a good organizer. And so I stepped down and decided I would be ‘regular’ attendee in Paris.
 
-Getting the crew badge was a challenge since a few organizers had seen it, but no one knew where it was. I had a deja vu, being a WordCamp organizer I knew there’s always something going wrong with badges. Thanks for looking [Taco](https://twitter.com/TacoVerdo) and [Sonja](https://twitter.com/sonjaleix) :). Having the crew badge did not give me any privileges. It’s a gentle reminder I tried to be part of this amazing event but couldn’t, because of not being able to combine volunteering/organizing and work related to my own [company](https://nostromo.nl/).
+Getting the crew badge was a challenge since a few organizers had seen it, but no one knew where it was. I had a deja vu, being a WordCamp organizer I knew there’s always something going wrong with badges. Thanks for looking [Taco](https://tacoverdo.com/) and [Sonja](https://sonjaleix.com/) :). Having the crew badge did not give me any privileges. It’s a gentle reminder I tried to be part of this amazing event but couldn’t, because of not being able to combine volunteering/organizing and work related to my own [company](https://nostromo.nl/).
 
-Then I joined the rest of the Contributor Day attendees and listened to the opening remarks by [Rocío](https://twitter.com/rociovaldi) and all the [Contributor Day teamleads](https://2017.europe.wordcamp.org/2017/05/17/everything-you-need-to-know-about-wceu-contributor-day/). What a great introduction for this important day. I saw lots of hands in the air after the question “Who has never been to a Contributor Day before?” was asked. The more contributors are helping out, the better.
+Then I joined the rest of the Contributor Day attendees and listened to the opening remarks by [Rocío](https://rocio.blog/) and all the [Contributor Day teamleads](https://2017.europe.wordcamp.org/2017/05/17/everything-you-need-to-know-about-wceu-contributor-day/). What a great introduction for this important day. I saw lots of hands in the air after the question “Who has never been to a Contributor Day before?” was asked. The more contributors are helping out, the better.
 
-I took a spot in the polyglots room, and talked to a lot of friends. To be honest I only translated about 50 strings…Then I had the idea to go to the Community room, to have a chat with [Andrea Middleton](https://twitter.com/andmiddleton) about the current status of WordCamp The Netherlands. ([you might have read this](https://wptavern.com/wordpress-community-support-shuts-down-wordcamp-netherlands-in-favor-of-city-based-wordcamps)). The conversation was good and constructive and resulted in some good news. We were allowed to organize a WordCamp The Netherlands again if we have three city-based WordCamps in The Netherlands. Well, consider it done! In a chat with [Josepha](https://twitter.com/JosephaHaden) and Taco we talked through all the details, so we could post this on our [team blog](https://nl.wordpress.org/2017/06/15/toch-toekomst-voor-wordcamp-nederland/).
+I took a spot in the polyglots room, and talked to a lot of friends. To be honest I only translated about 50 strings…Then I had the idea to go to the Community room, to have a chat with [Andrea Middleton](https://andreamiddleton.blog/) about the current status of WordCamp The Netherlands. ([you might have read this](https://wptavern.com/wordpress-community-support-shuts-down-wordcamp-netherlands-in-favor-of-city-based-wordcamps)). The conversation was good and constructive and resulted in some good news. We were allowed to organize a WordCamp The Netherlands again if we have three city-based WordCamps in The Netherlands. Well, consider it done! In a chat with [Josepha](https://josepha.blog/) and Taco we talked through all the details, so we could post this on our [team blog](https://nl.wordpress.org/2017/06/15/toch-toekomst-voor-wordcamp-nederland/).
 
 After all these talks, lunch was needed and since it was in a handy bag so I brought it with me to the metro for an afternoon and evening of sightseeing with my wife. To be complete, we went to the Place de la Bastille, Place des Vosges, Port de l’Arsenal and had dinner in Montmartre.
 
@@ -53,11 +60,11 @@ Day 3: Conference day &amp; WordPint meetup by SAVVII
 
 {{< figure src="images/opening-of-wceu-paolo-jenny-2017.jpg" caption="The opening of WCEU 2017 by Paolo Belcastro and Jenny Beaumont" title="The opening of WCEU 2017 by Paolo Belcastro and Jenny Beaumont" alt="The opening of WCEU 2017 by Paolo Belcastro and Jenny Beaumont">}}
 
-After a simple but good breakfast in the hotel I took the metro (absolutely love these in Paris) to the venue. After the opening remarks, I went to the Eiffel track and listened to [Alain Schlesser](https://twitter.com/schlessera) talking about [Demystifying the WordPress Bootstrap Process](https://wordpress.tv/2017/06/22/alain-schlesser-demystifying-the-wordpress-bootstrap-process/). Alain managed to make a very technical subject accessible to a broad public. He talked about how WordPress loads, what API, theme and plugin parts are loaded, how the sunrise process for multisite works and how to implement your own caching logic.
+After a simple but good breakfast in the hotel I took the metro (absolutely love these in Paris) to the venue. After the opening remarks, I went to the Eiffel track and listened to [Alain Schlesser](http://www.alainschlesser.com/) talking about [Demystifying the WordPress Bootstrap Process](https://wordpress.tv/2017/06/22/alain-schlesser-demystifying-the-wordpress-bootstrap-process/). Alain managed to make a very technical subject accessible to a broad public. He talked about how WordPress loads, what API, theme and plugin parts are loaded, how the sunrise process for multisite works and how to implement your own caching logic.
 
 {{<tweet user="mbootsman" id="875615185695686657">}}
 
-The second talk I attended that day was [Making Your Voice Heard: How to Win Friends and Influence Policy](https://wordpress.tv/2017/06/21/heather-burns-making-your-voice-heard-how-to-win-friends-and-influence-policy/) by [Heather Burns](https://twitter.com/idea15webdesign). Heather did a very good job in telling the attendees how you can achieve certain goals. If you want something changed, find peers and go reach that goal together. Don’t sit back and send emails, make appointments with influencers / decisionmakers and make your voice heard. I want to share this quote with you:
+The second talk I attended that day was [Making Your Voice Heard: How to Win Friends and Influence Policy](https://wordpress.tv/2017/06/21/heather-burns-making-your-voice-heard-how-to-win-friends-and-influence-policy/) by [Heather Burns](https://webdevlaw.uk/). Heather did a very good job in telling the attendees how you can achieve certain goals. If you want something changed, find peers and go reach that goal together. Don’t sit back and send emails, make appointments with influencers / decisionmakers and make your voice heard. I want to share this quote with you:
 
 > It is time for the WordPress community to find its voice, fulfill its potential and lead the way as a force for good across the web.
 > 
@@ -72,7 +79,7 @@ Day 4: Conference day &amp; After party
 
 {{< figure src="images/wceu-2017-in-numbers.jpg" caption="WCEU 2017 in numbers" title="WCEU 2017 in numbers" alt="WCEU 2017 in numbers">}}
 
-The second day of the conference was, as we are used to by now, packed with good presentations. For the morning part, I’d like to emphasize are the talks of [Andrew Nacin](http://wordpress.tv/2017/06/21/andrew-nacin-people-over-code/), [Morten Rand-Hendriksen](http://wordpress.tv/?s=CSS+Grid+Changes+Everything), [Boone Gorges](http://wordpress.tv/2017/06/21/boone-gorges-the-pernicious-myth-of-the-code-poet/), [Rian Rietveld](http://wordpress.tv/2017/06/22/rian-rietveld-accessibility-in-the-age-of-the-headless-cms/), and [Andrea Middleton](http://wordpress.tv/2017/06/21/andrea-middleton-how-wordpress-communities-are-built/). After lunch, [Matt](https://twitter.com/photomatt) was [interviewed](http://wordpress.tv/2017/06/27/interview-and-qanda-with-matt-mullenweg/) by [Om Malik](https://twitter.com/om) and presented the possible new WordPress editor ‘[Gutenberg](https://wordpress.org/plugins/gutenberg/)‘ to the public. Go and try this plugin and report any issues you have [here](https://github.com/WordPress/gutenberg/issues), since it looks like this is where the WordPress editor is going to.
+The second day of the conference was, as we are used to by now, packed with good presentations. For the morning part, I’d like to emphasize are the talks of [Andrew Nacin](http://wordpress.tv/2017/06/21/andrew-nacin-people-over-code/), [Morten Rand-Hendriksen](http://wordpress.tv/?s=CSS+Grid+Changes+Everything), [Boone Gorges](http://wordpress.tv/2017/06/21/boone-gorges-the-pernicious-myth-of-the-code-poet/), [Rian Rietveld](http://wordpress.tv/2017/06/22/rian-rietveld-accessibility-in-the-age-of-the-headless-cms/), and [Andrea Middleton](http://wordpress.tv/2017/06/21/andrea-middleton-how-wordpress-communities-are-built/). After lunch, [Matt](https://ma.tt/) was [interviewed](http://wordpress.tv/2017/06/27/interview-and-qanda-with-matt-mullenweg/) by [Om Malik](https://om.co/) and presented the possible new WordPress editor ‘[Gutenberg](https://wordpress.org/plugins/gutenberg/)‘ to the public. Go and try this plugin and report any issues you have [here](https://github.com/WordPress/gutenberg/issues), since it looks like this is where the WordPress editor is going to.
 
 As a follow up on the post on WPTavern, I contacted [Sarah](https://twitter.com/pollyplummer) to tell her about the recent developments. Sarah indicated she wanted to do a video-interview with Andrea, Josepha, [Luc](https://lucp.nl/) and me. During the interview Matt walked in, took a peek and gave us a positive nod. You might see our reactions in the resulting video that can be seen [here](https://wptavern.com/wordcamp-netherlands-reinstated-for-2018).
 

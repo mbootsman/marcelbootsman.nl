@@ -1,14 +1,21 @@
 ---
-title: 'Leaving the home office, one day a week'
-date: '2015-01-14T14:23:33+01:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: ''
-cover: 'images/plant-on-a-table.jpg'
-coverAlt: 'WordCamp Europe organising team'
-useRelativeCover: true
+title: Leaving the home office, one day a week
+author: Marcel Bootsman
 categories:
-    - General
+- General
+cover: 
+  image: "images/plant-on-a-table.jpg" # image path/url
+  alt: "A plant on a table" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2015-01-14T14:23:33+01:00"
+draft: false
+summary: This year, 2015, I will start working more outside of my home office. You might ask yourself, why? Well I will explain here.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 This year, 2015, I will start working more outside of my home office. You might ask yourself, why? Well I will explain here.
 

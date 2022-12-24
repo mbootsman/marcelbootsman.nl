@@ -1,14 +1,21 @@
 ---
-title: 'Using FacetWP with post to post relations'
-date: '2018-09-07T14:26:59+02:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'On a client site some posts have a relationship with other posts, set in meta fields. The client wanted to have a category filter for products on a brand page. In this blog I will explain what I did to achieve this.'
-cover: 'images/coffee-and-filter.jpg'
-coverAlt: 'Making coffee the old fashioned way'
-useRelativeCover: true
+title: Using FacetWP with post to post relations
+author: Marcel Bootsman
 categories:
-    - 'WordPress Tips'
+- WordPress Tips
+cover: 
+  image: "images/coffee-and-filter.jpg" # image path/url
+  alt: "Making coffee the old fashioned way" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2018-09-07T14:26:59+02:00"
+draft: false
+summary:  On a client site some posts have a relationship with other posts, set in meta fields. The client wanted to have a category filter for products on a brand page. In this blog I will explain what I did to achieve this.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 On a client site some posts have a relationship with other posts, set in meta fields. The client wanted to have a category filter for products on a brand page. In this blog I will explain what I did to achieve this.
 

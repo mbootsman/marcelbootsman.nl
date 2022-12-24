@@ -1,14 +1,21 @@
 ---
-title: 'Preselecting a facet and hiding it automatically with FacetWP'
-date: '2019-09-18T16:14:13+02:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'In this short howto I will show you how you can preselect a facet, and hide it when the page renders.'
-cover: 'images/hiding-lion.jpg'
-coverAlt: 'Hiding lion'
-useRelativeCover: true
+title: Preselecting a facet and hiding it automatically with FacetWP
+author: Marcel Bootsman
 categories:
-    - 'WordPress Tips'
+- WordPress Tips
+cover: 
+  image: "images/hiding-lion.jpg" # image path/url
+  alt: "A hiding lion in a field" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2019-09-18T16:14:13+02:00"
+draft: false
+summary:  In this short howto I will show you how you can preselect a facet, and hide it when the page renders.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 In this short howto I will show you how you can preselect a facet, and hide it when the page renders.
 

@@ -1,14 +1,21 @@
 ---
-title: 'Randomized content and caching - How to do it right'
-date: '2018-01-30T13:21:24+01:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'In this post I will let you know how to display random content on cached (static) pages.'
-cover: 'images/random-duckies.jpg'
-coverAlt: 'Random duckies'
-useRelativeCover: true
+title: Randomized content and caching - How to do it right
+author: Marcel Bootsman
 categories:
-    - 'WordPress Tips'
+- WordPress Tips
+cover: 
+  image: "images/random-duckies.jpg" # image path/url
+  alt: "A lot of yellow rubber duckies" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2018-01-30T13:21:24+01:00"
+draft: false
+summary: In this post I will let you know how to display random content on cached (static) pages.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 For a client I had to display partners on the site. To give them all equal visibility, they needed to be displayed in random order. I had a solution, but then came WP Rocket. That reduced page loading times, but also eliminated the random display of the partners since WP Rocket generates static pages.
 
@@ -29,7 +36,7 @@ One challenge remained, the random display of partners didn’t work anymore. Ev
 The final solution
 ------------------
 
-Thinking about this, I asked the friendly WP Rocket support desk if it was possible to not cache a certain part (fragment) of a page. I got a fast answer from [Caspar Hübinger](https://twitter.com/glueckpress) who told me that this was not possible, since WP Rocket stores the whole HTML document and fragments cannot be excluded. He also mentioned that dynamic features should be done in JavaScript and not in PHP. And I totally agree on that.
+Thinking about this, I asked the friendly WP Rocket support desk if it was possible to not cache a certain part (fragment) of a page. I got a fast answer from [Caspar Hübinger](https://caspar.blog/) who told me that this was not possible, since WP Rocket stores the whole HTML document and fragments cannot be excluded. He also mentioned that dynamic features should be done in JavaScript and not in PHP. And I totally agree on that.
 
 So, I decided to lookup some samples of randomizing the display of elements on a page, and came across a very cool post on [Stackoverflow](https://stackoverflow.com/questions/1533910/randomize-a-sequence-of-div-elements-with-jquery). A user had a similar challenge and another user came up with a really cool solution. A jQuery function `randomize` is created to randomize elements in a certain container. In the following code example `div.band` is the container we want to check for occurrences of `table tr td` and the elements to randomize are `div.member`
 

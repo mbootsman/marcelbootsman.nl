@@ -1,15 +1,21 @@
 ---
-title: 'Exporting / importing Gravity Forms MailChimp feeds'
-date: '2017-09-16T15:21:48+02:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'How do you export/import MailChimp feeds from Gravity Forms? In this post I''ll explain you how to do it.'
-cover: 'images/tilt-shifted-containers.jpg'
-coverAlt: 'Tilt shifted containers'
-useRelativeCover: true
+title: Exporting / importing Gravity Forms MailChimp feeds
+author: Marcel Bootsman
 categories:
-    - 'WordPress Tips'
-url: '/exporting-importing-gravity-forms-mailchimp-feeds'
+- WordPress Tips
+cover: 
+  image: "images/tilt-shifted-containers.jpg" # image path/url
+  alt: "Tilt shifted containers" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2017-09-16T15:21:48+02:00"
+draft: false
+summary: How do you export/import MailChimp feeds from Gravity Forms? In this post I'll explain you how to do it.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 Introduction
 ------------
@@ -24,7 +30,7 @@ I contacted Gravity Forms support and got a fast, clear, disappointing answer:
 
 This did not bring hope, and I was preparing to manually copy the feeds. Until I realized I was part of a great community, the WordPress community. A community in which you can ask questions, no matter what the level is, and where someone is always available to answer your question. I decided to go to the [Post Status Slack](https://poststatus.com/club/) and post my question in the `#heavydev` channel.
 
-After about 40 minutes I got a reply from [Naomi C. Bush](https://twitter.com/NaomiCBush) from [gravityplus.pro](https://gravityplus.pro). They also have a [Slack](https://gravityplus.pro/community/) team, which I have joined. Naomi directed me to a plugin, [Import/Export Add-On Feeds for Gravity Forms](https://wordpress.org/plugins/importexport-add-on-feeds-for-gravity-forms/). She had no experience with it, and I decided to give it a try. Since I have written this blog, you can conclude it works. Thanks Naomi, and thanks[ Anthony Montalbano](https://twitter.com/italianst4) for developing the plugin and sharing it with the WordPress community.
+After about 40 minutes I got a reply from [Naomi C. Bush](https://naomicbush.com/) from [gravityplus.pro](https://gravityplus.pro). They also have a [Slack](https://gravityplus.pro/community/) team, which I have joined. Naomi directed me to a plugin, [Import/Export Add-On Feeds for Gravity Forms](https://wordpress.org/plugins/importexport-add-on-feeds-for-gravity-forms/). She had no experience with it, and I decided to give it a try. Since I have written this blog, you can conclude it works. Thanks Naomi, and thanks [Anthony Montalbano](https://anthonymontalbano.com/) for developing the plugin and sharing it with the WordPress community.
 
 Let’s go to the details, how to use this plugin.
 

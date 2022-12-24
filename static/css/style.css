@@ -1,0 +1,224 @@
+html body {
+    font-size: 1rem;
+}
+
+img {
+    height: auto;
+}
+
+.header .logo img {
+    height: 40px;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a,
+.archive-entry h3 {
+    text-decoration: underline;
+}
+
+.toc a:hover,
+.post-content a {
+    box-shadow: 0 0;
+}
+
+#menu .active {
+    border-bottom: 0;
+}
+
+.homepage-content {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+    width: 100%;
+}
+
+.work {
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+.work h2 {
+    margin-top: 0px;
+}
+
+.grey {
+    background-color: #d9d7d7;
+}
+body.dark .grey {
+    background-color: #525151;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.latest-blogs .box {
+    flex-direction: column;
+}
+
+.box .column.onethird {
+    width: 34%;
+}
+
+.box .column.twothird {
+    width: 66%;
+}
+
+.box img.avatar {
+    border-radius: 200px;
+}
+
+.box .post {
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.box .cover {
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+
+.box .cover img {
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    height: auto;
+}
+
+.box .content {
+    padding-left: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.box .content h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.box .content .post-date {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.click-to-tweet {
+    display: inline-block;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #ddd;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 15px 15px 15px 30px;
+    margin-bottom: 1em;
+    margin-top: 1.75em;
+}
+
+.click-to-tweet .text a {
+    padding: 15px 0;
+    margin: 15px 0;
+    position: relative;
+    color: #000;
+    font-size: 1.5em;
+    line-height: 140%;
+    font-weight: 100;
+    text-decoration: none;
+    word-wrap: break-word;
+    border-bottom: none;
+    display: inline-block;
+    min-width: 90%;
+}
+
+.click-to-tweet .text a:hover {
+    color: #999;
+}
+
+.click-to-tweet a.ctt-button {
+    padding: 11px 24px 0 0;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    font-size: .7em;
+    font-weight: bold;
+    color: #999;
+    float: right;
+    text-decoration: none;
+    background: transparent url(/img/birdy.png) no-repeat right top 10px;
+}
+
+.click-to-tweet a.ctt-button:hover {
+    color: #666666;
+    background: transparent url(/img/birdy.png) no-repeat right top 8px;
+}
+
+.notice {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.disclaimer {
+    padding: 20px;
+}
+
+.connect ul {
+    margin-left: 0;
+}
+
+.connect li {
+    list-style: none;
+}
+
+.connect li img {
+    height: 26px;
+    width: 26px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 2px 0;
+}
+
+.dark .logo img,
+.dark .connect li img {
+    filter: invert(75%);
+}
+
+.dark .grey {
+    background-color: var(--header);
+}
+
+/* Responsive layout */
+@media (max-width: 800px) {
+    .box {
+        flex-direction: column;
+    }
+
+    .box .column.onethird {
+        width: 100%;
+    }
+
+    .box .column.twothird {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .box .post {
+        flex-direction: column;
+    }
+
+    .box .post .content {
+        margin: 20px 0 0 0;
+        padding: 0;
+    }
+
+    .box .cover {
+        flex-basis: content;
+    }
+}

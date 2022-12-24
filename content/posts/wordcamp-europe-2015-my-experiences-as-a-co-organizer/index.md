@@ -1,14 +1,21 @@
 ---
-title: 'WordCamp Europe 2015 - My experiences as a co-organizer'
-date: '2015-07-03T14:51:13+02:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: ''
-cover: 'images/wordcamp-europe-2015-organising-team.jpg'
-coverAlt: 'The WordCamp Europe 2015 Organising team'
-useRelativeCover: true
+title:  WordCamp Europe 2015 - My experiences as a co-organizer
+author: Marcel Bootsman
 categories:
-    - 'WordPress Community'
+- WordPress Community
+cover: 
+  image: "images/wordcamp-europe-2015-organising-team.jpg" # image path/url
+  alt: "The WordCamp Europe 2015 Organising team" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2015-07-03T14:51:13+02:00"
+draft: false
+summary:  Today, I posted a pipcture of our son. After posting it, I realised this picture really makes me happy. I’ll tell you why.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 WordCamp Europe 2015 is over. Writing this post has been on my to do list from the moment I knew I was able to join the organizing team for 2015, so let’s get started and let me tell you more about my experiences.
 

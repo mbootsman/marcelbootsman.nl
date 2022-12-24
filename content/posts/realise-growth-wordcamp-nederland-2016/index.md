@@ -1,15 +1,21 @@
 ---
-title: 'How did we realise growth for WordCamp Nederland 2016?'
-date: '2016-10-20T11:24:57+02:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'WordCamp Nederland 2016 has grown a whopping 68% since last years edition. How did the organizing team, lead by Marcel Bootsman, realize this?'
-cover: 'images/wordcamp-the-netherlands-2016-organising-team.jpg'
-coverAlt: 'The WordCamp The Netherlands 2016 Organising team'
-useRelativeCover: true
-
+title: How did we realise growth for WordCamp Nederland 2016?
+author: Marcel Bootsman
 categories:
-    - 'WordPress Community'
+- WordPress Community
+cover: 
+  image: "images/wordcamp-the-netherlands-2016-organising-team.jpg" # image path/url
+  alt: "The WordCamp The Netherlands 2016 Organising team" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2016-10-20T11:24:57+02:00"
+draft: false
+summary: WordCamp Nederland 2016 has grown a whopping 68% since last years edition. How did the organizing team, lead by Marcel Bootsman, realize this?
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 WordCamp Nederland 2016 has grown a whopping 68% since last years edition. How did the organizing team realize this?
 

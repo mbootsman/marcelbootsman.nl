@@ -1,14 +1,21 @@
 ---
-title: 'WordPress makes me, and a lot of other people, very happy'
-date: '2014-09-29T19:09:46+02:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'Read about why WordPrss made me happy, and others too.'
-cover: 'images/wordpress-logo-dkblue-orange.png'
-coverAlt: 'Orange WordPress logo on a blue background'
-useRelativeCover: true
+title: WordPress makes me, and a lot of other people, very happy
+author: Marcel Bootsman
 categories:
-    - General
+- WordPress Community
+cover: 
+  image: "images/wordpress-logo-dkblue-orange.png" # image path/url
+  alt: "Orange WordPress logo on a blue background" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2014-09-29T19:09:46+02:00"
+draft: false
+summary: Read about why WordPrss made me happy, and others too.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 This past weekend, [WordCamp Europe 2014](http://2014.europe.wordcamp.org/ "WordCamp Europe 2014") was held in Sofia, Bulgaria. A great event which underlines what makes the WordPress community what it is today. In this post I will try to share my story with WordPress, and how it got me happier.
 
@@ -22,7 +29,7 @@ Since that first customer, I have built a lot of WordPress sites, done a lot of 
 
 ### How I joined the WordPress community
 
-Because I was following a lot of Dutch WordPress professionals on Twitter, I read a tweet about WordCamp Netherlands 2010. Curious to see what that was, I bought a ticket. On November 6th, I arrived in Utrecht, had a packed day of cool talks, lot’s of conversations and a great lunch. The first conversation I had that day was with [Remkus de Vries](https://twitter.com/remkusdevries), when I checked in for WordCamp. “Hey nostromo, goedemorgen!” was what Remkus said. And of course I replied and we had a short conversation. I consider that moment to be the very moment on which I joined the WordPress community. I wanted to participate, and so I did.
+Because I was following a lot of Dutch WordPress professionals on Twitter, I read a tweet about WordCamp Netherlands 2010. Curious to see what that was, I bought a ticket. On November 6th, I arrived in Utrecht, had a packed day of cool talks, lot’s of conversations and a great lunch. The first conversation I had that day was with [Remkus de Vries](https://remk.us/), when I checked in for WordCamp. “Hey nostromo, goedemorgen!” was what Remkus said. And of course I replied and we had a short conversation. I consider that moment to be the very moment on which I joined the WordPress community. I wanted to participate, and so I did.
 
 ### Where I am now
 

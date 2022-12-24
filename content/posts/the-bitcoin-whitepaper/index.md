@@ -1,14 +1,22 @@
 ---
-title: 'The Bitcoin Whitepaper'
-date: '2021-02-01T20:15:52+01:00'
-draft: false
-author: 'Marcel Bootsman'
-summary: 'Bitcoin (₿) is a cryptocurrency invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto.'
-cover: 'images/bitcoin-logo.png'
-coverAlt: 'The bitcoin logo with the bitcoin character'
-useRelativeCover: true
+title: The Bitcoin Whitepaper
+author: Marcel Bootsman
 categories:
-    - General
+- Crypto
+- Bitcoin
+cover: 
+  image: "images/bitcoin-logo.png" # image path/url
+  alt: "The bitcoin logo with the bitcoin character" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
+date: "2021-02-01T20:15:52+01:00"
+draft: false
+summary: Bitcoin (₿) is a cryptocurrency invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto.
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
 ---
 **Bitcoin** (**₿**) is a cryptocurrency invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto. The currency began use in 2009 when its implementation was released as open-source software.
 
