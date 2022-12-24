@@ -49,6 +49,6 @@ You should see `Trusted: yes ` in the output of the command.
 
 Now disconnect your headphones by turning it off. And turn it on again. Your headphones should be connecting automatically now.
 
-## step 5 ##
+## Step 5 ##
 
 Enjoy your music, movie, or whatever you are listening to on your headphpones.
