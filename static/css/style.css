@@ -2,6 +2,11 @@ html body {
     font-size: 1rem;
 }
 
+main {
+    --main-width: 860px;
+    --hljs-bg: #3d3d3d;
+}
+
 img {
     height: auto;
 }
@@ -35,7 +40,7 @@ a,
 
 .homepage-content {
     margin: 20px auto;
-    max-width: 800px;
+    max-width: var(--main-width);
     text-align: left;
     width: 100%;
 }
@@ -61,7 +66,8 @@ body.dark .grey {
     flex-direction: row;
 }
 
-.latest-blogs .box {
+.latest-blogs .box,
+.latest-notes .box  {
     flex-direction: column;
 }
 
