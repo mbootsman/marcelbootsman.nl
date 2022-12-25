@@ -11,7 +11,7 @@ cover:
   hidden: false # only hide on current single page
 date: "2022-12-25T22:09:00+01:00"
 draft: false
-summary: When you want to run Home Assistant from behind a reverse proxy, running on a Synology, you might encounter a '400 Bad Request' error. Here's how to solve it.
+summary: When you want to run Home Assistant from behind a Reverse Proxy, running on a Synology, you might encounter a '400 Bad Request' error. Here's how to solve it.
 showToc: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
