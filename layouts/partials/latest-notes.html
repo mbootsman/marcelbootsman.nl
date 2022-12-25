@@ -1,0 +1,29 @@
+<div class="latest-notes">
+    <h2>{{ (site.GetPage "latest-notes").Title }}</h2>
+    <div class="box">
+        {{ range ( where site.RegularPages "Type" "notes" | first 5 ) }}
+        <div class="post">
+            {{/* check if we have a cover */}}
+            {{ if .Params.Cover.image }}
+                {{ $image := .Resources.GetMatch .Params.Cover.image }}
+                {{ $cover := $image.Resize "314x 600x webp q95 lancoz" }}
+                <div class="cover">
+                    <a href="{{ .Permalink }}"><img width="{{ $cover.Width }}" height="{{ $cover.Height }}" class="u-photo" src="{{ $cover.RelPermalink }}" alt="{{ .Params.Cover.alt}}"></a>
+                </div>
+                <div class="content">
+                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <span class="post-date">
+                        {{ .Date | time.Format (default "January 2, 2006" site.Params.DateFormat) }}
+                    </span>
+                    {{ .Summary }}
+                </div>
+            {{ else }}
+            <div class="content">
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>{{ .Summary }}
+            </div>
+            {{ end }}
+        </div>
+        {{end}}
+    </div>
+    <a href="/notes/">More notes</a>
+</div>
