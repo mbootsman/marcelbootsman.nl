@@ -7,7 +7,7 @@ cover:
   image: "images/locked-fence-padlock.jpg" # image path/url
   alt: "A padlock and a chain locking a greenish fence" # alt text
   caption: "" # display caption under cover
-  relative: false # when using page bundles set this to true
+  relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
 date: "2019-11-11T13:42:09+01:00"
 draft: false

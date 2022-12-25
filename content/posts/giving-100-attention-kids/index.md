@@ -8,7 +8,7 @@ cover:
   image: "images/unplug.jpg" # image path/url
   alt: "Pulling the powerplug from the socket" # alt text
   caption: "" # display caption under cover
-  relative: false # when using page bundles set this to true
+  relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
 date: "2015-01-20T19:50:01+01:00"
 draft: false

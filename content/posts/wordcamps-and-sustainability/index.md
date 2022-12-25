@@ -8,7 +8,7 @@ cover:
   image: "images/forest-in-the-fog.jpg" # image path/url
   alt: "Forest in the fog" # alt text
   caption: "" # display caption under cover
-  relative: false # when using page bundles set this to true
+  relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
 date: "2018-09-07T09:51:18+02:00"
 draft: false

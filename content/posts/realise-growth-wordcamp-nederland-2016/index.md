@@ -7,7 +7,7 @@ cover:
   image: "images/wordcamp-the-netherlands-2016-organising-team.jpg" # image path/url
   alt: "The WordCamp The Netherlands 2016 Organising team" # alt text
   caption: "" # display caption under cover
-  relative: false # when using page bundles set this to true
+  relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
 date: "2016-10-20T11:24:57+02:00"
 draft: false

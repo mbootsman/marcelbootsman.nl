@@ -7,7 +7,7 @@ cover:
   image: "images/doves-and-the-eiffel-tower.jpg" # image path/url
   alt: "Picture of the opening remarks at WordCamp Europe 2017" # alt text
   caption: "" # display caption under cover
-  relative: false # when using page bundles set this to true
+  relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
 date: "2017-06-14T10:26:14+02:00"
 draft: false

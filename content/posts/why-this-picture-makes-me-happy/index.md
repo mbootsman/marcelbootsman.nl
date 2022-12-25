@@ -7,7 +7,7 @@ cover:
   image: "images/cover-noam-in-a-field-with-blue-sky.jpg" # image path/url
   alt: "Noam in a field with blue sky" # alt text
   caption: "" # display caption under cover
-  relative: false # when using page bundles set this to true
+  relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
 date: "2015-06-08T07:43:09+02:00"
 draft: false

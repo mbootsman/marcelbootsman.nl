@@ -1,5 +1,5 @@
 ---
-title: Exporting / importing Gravity Forms MailChimp feeds
+title: Exporting and importing Gravity Forms MailChimp feeds
 author: Marcel Bootsman
 categories:
 - WordPress Tips
@@ -7,7 +7,7 @@ cover:
   image: "images/tilt-shifted-containers.jpg" # image path/url
   alt: "Tilt shifted containers" # alt text
   caption: "" # display caption under cover
-  relative: false # when using page bundles set this to true
+  relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
 date: "2017-09-16T15:21:48+02:00"
 draft: false

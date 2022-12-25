@@ -7,7 +7,7 @@ cover:
   image: "images/a-new-challenge.jpg" # image path/url
   alt: "Two signs of a human hiking pointing left and right" # alt text
   caption: "" # display caption under cover
-  relative: false # when using page bundles set this to true
+  relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
 date: "2020-03-09T14:20:00+01:00"
 draft: false

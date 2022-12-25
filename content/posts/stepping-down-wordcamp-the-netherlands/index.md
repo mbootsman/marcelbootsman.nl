@@ -7,7 +7,7 @@ cover:
   image: "images/stepping-down.jpg" # image path/url
   alt: "A sign with a symbol of a human walking down a staircase" # alt text
   caption: "" # display caption under cover
-  relative: false # when using page bundles set this to true
+  relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
 date: "2020-05-31T14:20:04+02:00"
 draft: false

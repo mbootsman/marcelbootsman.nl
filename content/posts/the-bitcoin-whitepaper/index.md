@@ -8,7 +8,7 @@ cover:
   image: "images/bitcoin-logo.png" # image path/url
   alt: "The bitcoin logo with the bitcoin character" # alt text
   caption: "" # display caption under cover
-  relative: false # when using page bundles set this to true
+  relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
 date: "2021-02-01T20:15:52+01:00"
 draft: false

@@ -7,7 +7,7 @@ cover:
   image: "images/plant-on-a-table.jpg" # image path/url
   alt: "A plant on a table" # alt text
   caption: "" # display caption under cover
-  relative: false # when using page bundles set this to true
+  relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
 date: "2015-01-14T14:23:33+01:00"
 draft: false

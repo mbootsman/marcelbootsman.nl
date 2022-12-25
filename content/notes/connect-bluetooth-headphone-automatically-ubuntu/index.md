@@ -7,7 +7,7 @@ cover:
   image: "images/headphones.jpg" # image path/url
   alt: "" # alt text
   caption: "" # display caption under cover
-  relative: false # when using page bundles set this to true
+  relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
 date: "2022-12-24T13:49:00+01:00"
 draft: false

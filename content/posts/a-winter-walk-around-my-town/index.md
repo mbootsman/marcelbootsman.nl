@@ -8,7 +8,7 @@ cover:
   image: "images/winter-walk.jpg" # image path/url
   alt: "A bridge during sunrise in a winter landscape" # alt text
   caption: "" # display caption under cover
-  relative: false # when using page bundles set this to true
+  relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
 date: "2021-02-14T19:48:28+01:00"
 draft: false
