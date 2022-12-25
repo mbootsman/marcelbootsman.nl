@@ -30,9 +30,9 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Marcel Bootsman
-    description: "Personal site of Marcel Bootsman. Here I share some WordPress, webdev, business and other techy stuff."
-    keywords: [Blog, Open Source, WordPress]
-    author: Me
+    description: "Personal site of Marcel Bootsman. Here I share some WordPress, webdev, business and other stuff that interests me."
+    keywords: 
+    author: Marcel Bootsman
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
@@ -58,28 +58,13 @@ params:
         favicon16x16: "/img/marcelbootsman-logo.png"
         favicon32x32: "/img/marcelbootsman-logo.png"
         apple_touch_icon: "/img/marcelbootsman-logo.png"
-        safari_pinned_tab: "</img/marcelbootsman-logo.png"
+        safari_pinned_tab: "/img/marcelbootsman-logo.png"
 
     label:
         text: "Marcel Bootsman"
         icon: /img/marcelbootsman-logo.png
         iconHeight: 44
         iconWidth: 40
-
-    # profile-mode
-    profileMode:
-        enabled: false # needs to be explicitly set
-        title: ExampleSite
-        subtitle: "This is subtitle"
-        imageUrl: "<img location>"
-        imageWidth: 120
-        imageHeight: 120
-        imageTitle: my image
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
 
     # home-info mode
     homeInfoParams:
@@ -88,7 +73,7 @@ params:
 
     cover:
         hidden: false # hide everywhere but not in structured data
-        hiddenInList: true # hide on list pages and home
+        hiddenInList: false # hide on list pages and home
         hiddenInSingle: false # hide on single page
 
     editPost:
