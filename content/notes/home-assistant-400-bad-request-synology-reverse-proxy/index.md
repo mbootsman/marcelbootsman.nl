@@ -44,7 +44,9 @@ Connection: $connection_upgrade
 {{< figure src="images/web-socket-created.png" caption="" alt="Adding WebSocket headers to the Reverse Proxy rule">}}
 
 ## Step 3
-Since we now have the Reverse Proxy configration set up, we need to tell Home Assistant that a trusted proxy is used. Add the following to your `configuation.yaml` file:
+Since we now have the Reverse Proxy configration set up, we need to tell Home Assistant that a trusted proxy is used. [Read more on this in the Home Assistant documentation](https://www.home-assistant.io/integrations/http/). 
+
+Add the following to your `configuation.yaml` file:
 
 ```
 http:
