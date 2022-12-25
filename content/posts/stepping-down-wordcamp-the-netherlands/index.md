@@ -16,6 +16,8 @@ showToc: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
+aliases:
+ - /stepping-down-wordcamp-the-netherlands
 ---
 I’m stepping down as lead organizer for WordCamp The Netherlands. Not an easy decision, but one I had to make. For myself.
 
