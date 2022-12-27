@@ -126,11 +126,11 @@ body.dark .grey {
     letter-spacing: .075em;
     float: left;
     padding: 45px 0 30px 25px;
-    margin: 20px 0;
+    margin: 20px 0 40px;
     border-top: 2px dotted #858585;
     border-bottom: 2px dotted #858585;
-    -webkit-transform: rotate(-3deg);
-    -moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
     border-inline-start: unset;
 }
 
