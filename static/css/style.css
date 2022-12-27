@@ -121,6 +121,19 @@ body.dark .grey {
     margin: 20px 0;
 }
 
+.post-content figure {
+    border: 1px solid #cfcfcf;
+    padding: 2px;    
+}
+
+.post-content figure picture img {
+    margin: 0;
+}
+
+.post-content figure figcaption {
+    padding: 0 3px; 
+    color: #666666;
+}
 .post-content blockquote {
     font-size: 2em;
     letter-spacing: .075em;
