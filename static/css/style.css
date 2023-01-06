@@ -156,6 +156,44 @@ body.dark .grey {
     z-index: 1;
 }
 
+.tweet .post-content {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 566px;
+}
+
+.tweet .post-content p img {
+    border-radius: 24px;
+}
+
+.tweet .post-content .head {
+    display:flex;
+    flex-direction: row;
+}
+
+.tweet .post-content .head img.avatar {
+    width: 48px;
+    height: auto;
+    border-radius: 24px;
+}
+
+.tweet .post-content .head .account {
+    padding: 14px;
+}
+
+.tweet .post-content .head .name {
+    font-weight: bold;
+}
+
+.tweet .post-content .head .nickname a{
+    color: #aaa;
+}
+
+.tweet .post-content .post-meta {
+    color: #aaa;
+}
+
 .disclaimer {
     padding: 20px;
 }

@@ -106,6 +106,10 @@ menu:
           name: Notes
           url: /notes/
           weight: 20
+        - identifier: tweets
+          name: Tweets
+          url: /tweets/
+          weight: 25
         - identifier: categories
           name: Categories
           url: /categories/
