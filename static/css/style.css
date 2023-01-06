@@ -123,7 +123,8 @@ body.dark .grey {
 
 .post-content figure {
     border: 1px solid #cfcfcf;
-    padding: 2px;    
+    border-radius: 10px;
+    padding: 10px;    
 }
 
 .post-content figure picture img {
@@ -131,9 +132,11 @@ body.dark .grey {
 }
 
 .post-content figure figcaption {
-    padding: 0 3px; 
-    color: #666666;
+    padding: 10px 3px 0 3px; 
+    color: #666;
+    font-size: .75em;
 }
+
 .post-content blockquote {
     font-size: 2em;
     letter-spacing: .075em;

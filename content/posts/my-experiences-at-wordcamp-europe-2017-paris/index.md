@@ -26,9 +26,9 @@ Day 1: Travel &amp; sightseeing
 
 After skipping WordCamp Europe 2016 in Vienna, my wife and I decided to come to Paris. We headed to Paris on Wednesday June 14th. We were going at a speed of about 300km/h somehere in the north of France in the Thalys train from Rotterdam (yes the city of [WP Meetup Rotterdam](https://www.meetup.com/Rotterdam-WordPress-Meetup/)) to Paris Nord, when I closed my laptop and decided getting the wifi to work was not going to happen. We got a snack and a drink and soon we arrived at Paris Nord. What we noticed at first was a lot of heavily armed police / army personnel. Which felt a bit weird and not at all comforting.
 
-After leaving the train station, we walked to our hotel and dropped our luggage. It was time to go to the barbershop. You didn’t expect that one did ya? A few days before our journey I wanted to get a haircut, but all shops were fully booked. So, I thought, let’s go to Paris and do it here. But where do I go? I posted this tweet:
+After leaving the train station, we walked to our hotel and dropped our luggage. It was time to go to the barbershop. You didn’t expect that one did ya? A few days before our journey I wanted to get a haircut, but all shops were fully booked. So, I thought, let’s go to Paris and do it here. But where do I go? I posted [this tweet](/tweets/874717776660885504/):
 
-{{< tweet user="mbootsman" id="874717776660885504" >}}
+{{< figure src="images/874717776660885504.png" caption="Screenshot of tweet 874717776660885504" title="Tweet 874717776660885504" alt="Tweet with text: Hey #wceu ppl, anyone know a good barber in Paris? I need a 1930s hipster haircut tomorrow 💇🏼‍♂️" >}}
 
 And just ten minutes later, I received an [answer](https://twitter.com/benjaminlupu/status/874720637062967297) from [Benjamin Lupu](https://twitter.com/benjaminlupu) in which he said I had to go to [Les Thermes de Lutèce](https://www.tripadvisor.com/Attraction_Review-g187147-d4938757-Reviews-Les_Thermes_de_Lutece-Paris_Ile_de_France.html). Well that was some very good advice. I got a great haircut and a relaxing experience. 
 
@@ -62,7 +62,7 @@ Day 3: Conference day &amp; WordPint meetup by SAVVII
 
 After a simple but good breakfast in the hotel I took the metro (absolutely love these in Paris) to the venue. After the opening remarks, I went to the Eiffel track and listened to [Alain Schlesser](http://www.alainschlesser.com/) talking about [Demystifying the WordPress Bootstrap Process](https://wordpress.tv/2017/06/22/alain-schlesser-demystifying-the-wordpress-bootstrap-process/). Alain managed to make a very technical subject accessible to a broad public. He talked about how WordPress loads, what API, theme and plugin parts are loaded, how the sunrise process for multisite works and how to implement your own caching logic.
 
-{{<tweet user="mbootsman" id="875615185695686657">}}
+{{< figure src="images/875615185695686657.png" caption="Screenshot of tweet 875615185695686657" title="Tweet 875615185695686657" alt="Tweet with text: The WordPress bootstrap process, explained by @schlessera #wceu" >}}
 
 The second talk I attended that day was [Making Your Voice Heard: How to Win Friends and Influence Policy](https://wordpress.tv/2017/06/21/heather-burns-making-your-voice-heard-how-to-win-friends-and-influence-policy/) by [Heather Burns](https://webdevlaw.uk/). Heather did a very good job in telling the attendees how you can achieve certain goals. If you want something changed, find peers and go reach that goal together. Don’t sit back and send emails, make appointments with influencers / decisionmakers and make your voice heard. I want to share this quote with you:
 

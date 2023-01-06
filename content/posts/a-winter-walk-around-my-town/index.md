@@ -23,9 +23,10 @@ Today was the first day the temperature reach above-zero-Celsius after a seven d
 
 I planned a walk for yesterday, but since we wanted to ice-skating (yes, on natural ice) I postponed the walk for a day.
 
-At about 10 minutes past 7 in the morning, I left my home, and started walking. I planned a trip of 30km. See the tweet below. Also, this tweet collection contains some images of the gallery below.
+At about 10 minutes past 7 in the morning, I left my home, and started walking. I planned a trip of 30km. [See the tweet below](/tweets/1360826510198898692/).
 
-{{< tweet user="mbootsman" id="1360826510198898692" >}} 
+{{< figure src="images/1360826510198898692.png" caption="Screenshot of tweet 1360826510198898692" title="Tweet 1360826510198898692" alt="Tweet with text: Goedemorgen! Tijd voor een winterse #wandeling. Een rondje van 30km. Maar eerst, een rondje met de hond 😁" >}}
+
 
 After witnessing a magical sunset, walking in the snow, between people ice-skating on natural ice for the first time since about 9 years was really special. I’m posting this on my blog, because I want as many of you to experience what I saw. Sure, these are just pictures, but you can get a sense of how it was.
 
@@ -33,7 +34,7 @@ After witnessing a magical sunset, walking in the snow, between people ice-skati
 
 Here’s the picture gallery, I hope you enjoy the pictures! Complete route can be found below the pictures.
 
-{{< gallery match="images/*" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
+{{< gallery match="images/*jpg" sortOrder="asc" rowHeight="150" margins="5" thumbnailResizeOptions="600x600 q90 Lanczos" showExif=true previewType="blur" embedPreview=true loadJQuery=true >}}
 
 ## Strava route ##
 
