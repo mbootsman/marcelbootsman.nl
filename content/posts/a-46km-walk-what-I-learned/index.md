@@ -4,7 +4,7 @@ author: Marcel Bootsman
 categories:
 - Hiking
 cover: 
-  image: "images/sunrise-hazerswoude.png" # image path/url
+  image: "images/sunrise-hazerswoude.jpg" # image path/url
   alt: "Sunrise in Hazerswoude-Dorp" # alt text
   caption: "" # display caption under cover
   relative: true # when using page bundles set this to true
