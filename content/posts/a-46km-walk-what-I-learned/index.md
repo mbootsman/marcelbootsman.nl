@@ -5,7 +5,7 @@ categories:
 - Hiking
 cover: 
   image: "images/sunrise-hazerswoude.png" # image path/url
-  alt: "A bag with a 2022 label" # alt text
+  alt: "Sunrise in Hazerswoude-Dorp" # alt text
   caption: "" # display caption under cover
   relative: true # when using page bundles set this to true
   hidden: false # only hide on current single page
