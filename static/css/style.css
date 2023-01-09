@@ -223,7 +223,7 @@ body.dark .grey {
 }
 
 .dark .main img {
-    filter: grayscale(100%);
+    filter: grayscale(100%)!important;
 }
 
 .dark .grey {
