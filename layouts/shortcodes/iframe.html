@@ -1,1 +1,6 @@
-<iframe allowtransparency="true" frameborder="0" height="{{ .Get 1 }}" scrolling="no" src="{{ .Get 0 }}" width="100%"></iframe>
+<iframe allowtransparency="true" frameborder="0" {{ with .Get "height" }} height="{{ . }}"{{ end }}
+ scrolling="no" src="{{ .Get "src" }}" width="100%"></iframe>
+
+{{ with .Get "script" }} 
+<script async defer src="{{ . }}"></script>
+{{ end }}

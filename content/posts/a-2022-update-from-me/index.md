@@ -37,7 +37,7 @@ As you might have heard, Elon Musk took over [control of Twitter](https://editio
 - Reinstated the Trump account
 
 These are all reasons (but not all) I stopped using Twitter since my [last tweet](https://twitter.com/mbootsman/status/1603667768884297728) on December 16th. I even removed the Twitter app from my smartphone.
-{{< iframe "https://toot.re/@mbootsman/109400570333262949/embed" >}}
+{{< iframe src="https://toot.re/@mbootsman/109400570333262949/embed" >}}
 
 Before decreasing my activity to zero on Twitter, I had registered for a Mastodon account on mastodon.social. I reactivated activity there and soon felt the urge to start my own instance. So, that's what I did. Read more in the [Tech stuff](#tech-stuff) part.
 
@@ -70,7 +70,7 @@ I have started to use Nextcloud [thread on Mastodon](https://toot.re/@mbootsman/
 ### Own Mastodon instance  
 I read a lot about starting your onw instance, and all work that comes with it. I registered a nice domain name, fired up a VPS, installed all software and there it was, [toot.re](https://toot.re).
 
-{{< iframe "https://toot.re/@mbootsman/109280650187478192/embed" >}}
+{{< iframe src="https://toot.re/@mbootsman/109280650187478192/embed" >}}
 
 After that first toot, yes that's what a post on Mastodon is called, I got a two people I trust on board as co-admins. [Luc Princen](https://toot.re/@lucp) en [Jos Klever](https://toot.re/@josklever).
 

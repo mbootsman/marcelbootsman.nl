@@ -39,4 +39,4 @@ Here’s the picture gallery, I hope you enjoy the pictures! Complete route can 
 ## Strava route ##
 
 Here’s the complete route on strava:
-{{< iframe "https://www.strava.com/activities/4785168506/embed/25a137a2cc6dbb063d4b5b71a9319bbea73d8cc8" 400 >}}
+{{< iframe src="https://www.strava.com/activities/4785168506/embed/25a137a2cc6dbb063d4b5b71a9319bbea73d8cc8" height="400" >}}

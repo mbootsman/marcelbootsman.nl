@@ -230,6 +230,11 @@ body.dark .grey {
     background-color: var(--header);
 }
 
+.gallery-wrapper {
+    margin-bottom: 20px;
+}
+
+
 /* Responsive layout */
 @media (max-width: 800px) {
     .box {

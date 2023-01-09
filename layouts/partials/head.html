@@ -29,6 +29,10 @@
 {{- if site.Params.analytics.yandex.SiteVerificationTag }}
 <meta name="yandex-verification" content="{{ site.Params.analytics.yandex.SiteVerificationTag }}">
 {{- end }}
+{{ if .HasShortcode "leaflet-map" }}
+    {{ partial "leaflet-loader" . }}
+{{ end }}
+
 {{- if site.Params.analytics.bing.SiteVerificationTag }}
 <meta name="msvalidate.01" content="{{ site.Params.analytics.bing.SiteVerificationTag }}">
 {{- end }}
