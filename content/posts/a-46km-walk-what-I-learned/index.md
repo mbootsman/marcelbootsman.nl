@@ -93,7 +93,7 @@ The last 10 kilometers of this hike were not a reflection of the entire trip. I 
 In the map below, you can see the route I walked.
 
 {{< leaflet-map mapHeight="25vw" mapWidth="100%" mapLat="52.12445" mapLon="4.640769" >}}
-  {{< leaflet-track trackPath="Berkel_en_Rodenrijs_to_Schiphol_Rijk.gpx" lineColor="#ff0000" lineWeight="5" lineOpacity="0.8" >}}
+  {{< leaflet-track trackPath="Berkel_en_Rodenrijs_to_Schiphol_Rijk-light.gpx" lineColor="#ff0000" lineWeight="5" lineOpacity="0.8" >}}
 {{< /leaflet-map >}} 
 
 {{< notice >}}
